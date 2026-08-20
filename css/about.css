@@ -1,0 +1,47 @@
+/* ============================================================
+   about.html — about page only
+   (mission/vision split, pillars, team avatars)
+   ============================================================ */
+
+.mv-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-sm);}
+.mv-panel{padding:44px;}
+.mv-panel:first-child{background:var(--ink);color:var(--paper);}
+.mv-panel:first-child h3{color:var(--paper);}
+.mv-panel:last-child{background:#fff;}
+.mv-panel .eyebrow{margin-bottom:14px;display:block;}
+.mv-panel:first-child .eyebrow{color:var(--clay);}
+
+.pillars{display:flex;flex-direction:column;gap:16px;}
+.pillar{display:grid;grid-template-columns:90px 1fr;gap:24px;padding:30px 26px;}
+.pillar .tag{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--ink-soft);}
+.pillar h3{font-size:20px;margin-bottom:8px;}
+.pillar p{color:var(--ink-soft);margin:0;}
+
+.team-card{text-align:left;position:relative;}
+.team-avatar{
+  width:100%;aspect-ratio:1/1;border-radius:18px;overflow:hidden;
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Fraunces',serif;font-size:34px;font-weight:600;color:#fff;
+  margin-bottom:16px;box-shadow:var(--shadow-sm);background:#e0dcce;
+}
+.team-avatar img{
+  width:100%;height:100%;object-fit:cover;display:block;
+  transition:transform .4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.team-card:hover .team-avatar img{
+  transform:scale(1.08);
+}
+.team-card h4{font-size:18px;margin-bottom:4px;}
+.team-card .role{
+  font-family:'JetBrains Mono',monospace;font-size:12px;
+  color:var(--v-blue);text-transform:uppercase;letter-spacing:0.06em;font-weight:600;
+}
+
+@media (max-width:960px){
+  .mv-grid{grid-template-columns:1fr;}
+}
+@media (max-width:720px){
+  .mv-panel{padding:30px 24px;}
+  .pillar{grid-template-columns:60px 1fr;gap:14px;padding:24px 20px;}
+  .team-avatar{font-size:26px;}
+}

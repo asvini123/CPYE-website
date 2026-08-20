@@ -1,0 +1,16 @@
+/* ============================================================
+   projects.html — our projects page only
+   (project grid layout tweaks; card look is shared via base.css)
+   ============================================================ */
+
+.project-tag{background:var(--v-red);}
+.grid-3 .project-card:nth-child(6n+1) .project-media{background:var(--v-red);}
+.grid-3 .project-card:nth-child(6n+2) .project-media{background:var(--v-purple);}
+.grid-3 .project-card:nth-child(6n+3) .project-media{background:var(--v-green);}
+.grid-3 .project-card:nth-child(6n+4) .project-media{background:var(--v-sky);}
+.grid-3 .project-card:nth-child(6n+5) .project-media{background:var(--v-blue);}
+.grid-3 .project-card:nth-child(6n+6) .project-media{background:var(--clay);}
+
+@media (max-width:720px){
+  .grid-3{gap:20px;}
+}

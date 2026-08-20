@@ -1,0 +1,21 @@
+/* ============================================================
+   get-involved.html — get involved page only
+   ============================================================ */
+
+.way-card{padding:34px;display:flex;flex-direction:column;gap:14px;}
+.way-icon{
+  width:50px;height:50px;border-radius:12px;
+  display:flex;align-items:center;justify-content:center;
+}
+.way-icon svg{width:24px;height:24px;stroke:#fff;}
+
+.pillars{display:flex;flex-direction:column;gap:16px;}
+.pillar{display:grid;grid-template-columns:90px 1fr;gap:24px;padding:30px 26px;}
+.pillar .tag{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--ink-soft);}
+.pillar h3{font-size:20px;margin-bottom:8px;}
+.pillar p{color:var(--ink-soft);margin:0;}
+
+@media (max-width:720px){
+  .way-card{padding:26px;}
+  .pillar{grid-template-columns:60px 1fr;gap:14px;padding:24px 20px;}
+}

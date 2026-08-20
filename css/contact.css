@@ -1,0 +1,42 @@
+/* ============================================================
+   contact.html — contact page only
+   (whatsapp card, contact details card, office-hours note)
+   ============================================================ */
+
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:stretch;}
+
+.contact-card{padding:40px;display:flex;flex-direction:column;justify-content:space-between;}
+.contact-row{display:flex;align-items:center;gap:16px;padding:16px 0;border-top:1px solid var(--line);}
+.contact-row:first-of-type{border-top:none;}
+.contact-icon{
+  width:44px;height:44px;border-radius:10px;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+  background:var(--paper-deep);
+}
+.contact-icon svg{width:20px;height:20px;}
+.contact-row .label{font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.08em;text-transform:uppercase;color:var(--ink-soft);}
+.contact-row .value{font-weight:700;font-size:16.5px;}
+
+.wa-card{
+  background:var(--ink);color:var(--paper);
+  border-radius:var(--radius);
+  padding:40px;
+  display:flex;flex-direction:column;justify-content:space-between;
+  position:relative;overflow:hidden;
+  box-shadow:var(--shadow-sm);
+}
+.wa-card::before{content:"";position:absolute;left:0;right:0;top:0;height:5px;background:var(--ring);}
+.wa-card h3{color:var(--paper);}
+.wa-card p{color:#C9C5B8;}
+
+.map-note{
+  border:1px solid var(--line);border-radius:var(--radius);
+  padding:30px;background:var(--paper-deep);margin-top:28px;
+}
+
+@media (max-width:960px){
+  .contact-grid{grid-template-columns:1fr;}
+}
+@media (max-width:720px){
+  .contact-card,.wa-card{padding:26px;}
+}
