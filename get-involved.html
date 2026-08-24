@@ -17,24 +17,38 @@
   <div class="wrap">
     <a href="index.html" class="brand">
       <img src="images/logo.jpeg" alt="Centre for Peace Building and Youth Empowerment logo">
-      <span class="brand-name">Centre for Peace Building
-        <span>&amp; Youth Empowerment</span>
+      <span class="brand-name"><span data-i18n="brand_title">Centre for Peace Building</span>
+        <span data-i18n="brand_subtitle">&amp; Youth Empowerment</span>
       </span>
     </a>
     <nav class="main-nav" aria-label="Primary">
       <div class="nav-panel-head"><img src="images/logo.jpeg" alt="CPYE logo"><button class="nav-close" aria-label="Close menu" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/></svg></button></div>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="projects.html">Our Projects</a></li>
-        <li><a href="get-involved.html" class="active">Get Involved</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="contact.html" class="nav-cta">Donate</a></li>
+        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="about.html" data-i18n="nav_about">About Us</a></li>
+        <li><a href="projects.html" data-i18n="nav_projects">Our Projects</a></li>
+        <li><a href="get-involved.html" class="active" data-i18n="nav_involved">Get Involved</a></li>
+        <li><a href="contact.html" data-i18n="nav_contact">Contact Us</a></li>
+        <li><a href="contact.html" class="nav-cta" data-i18n="nav_donate">Donate</a></li>
       </ul>
     </nav>
-    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="site-header-actions">
+      <div class="lang-switcher">
+        <button class="lang-dropdown-toggle" type="button" aria-label="Choose Language">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 010 20 15 15 0 010-20z"/></svg>
+          <span class="current-lang-label">English</span>
+          <svg class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:12px;height:12px;"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="lang-dropdown">
+          <a href="#" class="lang-option" data-lang="en">🇬🇧 English</a>
+          <a href="#" class="lang-option" data-lang="ta">🇱🇰 தமிழ்</a>
+          <a href="#" class="lang-option" data-lang="si">🇱🇰 සිංහල</a>
+        </div>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -42,7 +56,7 @@
   <div class="wrap">
     <span class="crumb">Get Involved</span>
     <h1>Your effort. Their chance to learn and grow.</h1>
-    <p>Whether you have an hour a week, a specific skill, or a business behind you — there's a place for you in this work.</p>
+    <p>Whether you have time, digital skills, educational experience, or financial sponsorship to offer — there's an impactful place for you in this mission.</p>
   </div>
 </section>
 
@@ -82,7 +96,7 @@
           <path d="M296 200c6-8 6-16 0-22" stroke="#5B3A82" stroke-width="7" fill="none" stroke-linecap="round"/>
         </g>
 
-        <!-- peace symbol above, sealing the agreement -->
+        <!-- peace symbol above -->
         <g>
           <circle cx="280" cy="66" r="26" fill="none" stroke="#E39A3E" stroke-width="7"/>
           <line x1="280" y1="66" x2="280" y2="118" stroke="#E39A3E" stroke-width="7"/>
@@ -106,8 +120,8 @@
         <div class="way-icon" style="background:var(--v-red);">
           <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3>Volunteer</h3>
-        <p style="color:var(--ink-soft);">Bring your time and skills directly into our classrooms, dialogue circles and enterprise labs — as a mentor, trainer, or field volunteer.</p>
+        <h3>Volunteer as Trainer / Mentor</h3>
+        <p style="color:var(--ink-soft);">Bring your time and skills directly into our IT labs, classrooms, and life-skills workshops — teaching digital skills, arts, and mentoring children.</p>
         <a href="https://wa.me/94758507463?text=Hi%21%20I%27d%20like%20to%20volunteer%20with%20CPYE.%20Could%20you%20share%20more%20details%20on%20how%20I%20can%20get%20involved%3F" target="_blank" rel="noopener" class="btn btn-outline" style="align-self:flex-start;">Apply to volunteer</a>
       </div>
 
@@ -116,7 +130,7 @@
           <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
         <h3>Become a Partner</h3>
-        <p style="color:var(--ink-soft);">Join our network of government bodies, RDS/WRDS societies and youth-led organisations to expand programme reach.</p>
+        <p style="color:var(--ink-soft);">Join our network of government bodies, RDS/WRDS societies, schools, and youth organizations to co-host and expand community programmes.</p>
         <a href="https://wa.me/94758507463?text=Hi%21%20I%27m%20interested%20in%20becoming%20a%20partner%20organisation%20with%20CPYE.%20Could%20we%20discuss%20this%20further%3F" target="_blank" rel="noopener" class="btn btn-outline" style="align-self:flex-start;">Start a partnership</a>
       </div>
 
@@ -125,7 +139,7 @@
           <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 2l2.4 6.9L21 11l-6.6 2.1L12 20l-2.4-6.9L3 11l6.6-2.1z" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
         <h3>Sponsor a Project</h3>
-        <p style="color:var(--ink-soft);">Fund a specific track — education, enterprise incubation, or community dialogue — and follow its progress directly.</p>
+        <p style="color:var(--ink-soft);">Fund a specific track — such as the Resettlement Children Project, IT equipment for a village school, or digital literacy classes — and receive direct impact updates.</p>
         <a href="https://wa.me/94758507463?text=Hi%21%20I%27m%20interested%20in%20sponsoring%20one%20of%20CPYE%27s%20projects.%20Could%20you%20share%20more%20details%3F" target="_blank" rel="noopener" class="btn btn-outline" style="align-self:flex-start;">Sponsor a track</a>
       </div>
 
@@ -133,8 +147,8 @@
         <div class="way-icon" style="background:var(--v-blue);">
           <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h1M9 13h1M14 9h1M14 13h1" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3>Corporate Partnerships</h3>
-        <p style="color:var(--ink-soft);">CSR alignment with education, innovation and enterprise goals — from co-branded programmes to staff volunteering.</p>
+        <h3>Corporate &amp; CSR Alignment</h3>
+        <p style="color:var(--ink-soft);">Align your corporate social responsibility initiatives with digital literacy, youth entrepreneurship, and rural community upliftment.</p>
         <a href="https://wa.me/94758507463?text=Hi%21%20I%27m%20reaching%20out%20on%20behalf%20of%20a%20company%20interested%20in%20a%20corporate%20partnership%20with%20CPYE." target="_blank" rel="noopener" class="btn btn-outline" style="align-self:flex-start;">Discuss CSR</a>
       </div>
     </div>
@@ -152,21 +166,21 @@
         <span class="tag">01 · Effort</span>
         <div>
           <h3>Tell us how you'd like to help</h3>
-          <p>Message us on WhatsApp or email — volunteering, partnership, sponsorship or CSR, we'll point you the right way.</p>
+          <p>Message us on WhatsApp or email — volunteering, partnership, sponsorship or CSR, we'll guide you directly.</p>
         </div>
       </div>
       <div class="pillar">
         <span class="tag">02 · Learn</span>
         <div>
           <h3>We match you to a live programme</h3>
-          <p>We'll walk you through current projects and where your time, funds or expertise fit best.</p>
+          <p>We'll walk you through current projects and where your time, funds or expertise will create the greatest impact.</p>
         </div>
       </div>
       <div class="pillar">
         <span class="tag">03 · Grow</span>
         <div>
-          <h3>You see the impact, together with us</h3>
-          <p>Regular updates from the field — the same accountability we hold ourselves to with every community.</p>
+          <h3>You see the real impact, together with us</h3>
+          <p>Regular updates and photo reports from the field — the same transparency and accountability we maintain with every community.</p>
         </div>
       </div>
     </div>
@@ -198,39 +212,39 @@
       <div class="footer-brand">
         <img src="images/logo.jpeg" alt="CPYE logo">
         <div>
-          <h4 style="margin:0 0 6px;">Centre for Peace Building &amp; Youth Empowerment</h4>
-          <p>Building an inclusive, socially cohesive society through education, innovation and enterprise.</p>
+          <h4 style="margin:0 0 6px;" data-i18n="brand_title">Centre for Peace Building &amp; Youth Empowerment</h4>
+          <p data-i18n="footer_desc">Building an inclusive, socially cohesive society through education, innovation and enterprise.</p>
         </div>
       </div>
       <div class="footer-col">
-        <h4>Navigate</h4>
+        <h4 data-i18n="footer_nav_head">Navigate</h4>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="projects.html">Our Projects</a></li>
-          <li><a href="get-involved.html">Get Involved</a></li>
+          <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+          <li><a href="about.html" data-i18n="nav_about">About Us</a></li>
+          <li><a href="projects.html" data-i18n="nav_projects">Our Projects</a></li>
+          <li><a href="get-involved.html" data-i18n="nav_involved">Get Involved</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Core Values</h4>
+        <h4 data-i18n="footer_values_head">Core Values</h4>
         <ul>
-          <li><a href="about.html">Equality</a></li>
-          <li><a href="about.html">Accountability</a></li>
-          <li><a href="about.html">Responsibility</a></li>
-          <li><a href="about.html">Partnership &amp; Participation</a></li>
+          <li><a href="about.html" data-i18n="val_1_title">Equality</a></li>
+          <li><a href="about.html" data-i18n="val_2_title">Accountability</a></li>
+          <li><a href="about.html" data-i18n="val_3_title">Responsibility</a></li>
+          <li><a href="about.html" data-i18n="val_4_title">Partnership &amp; Participation</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Contact</h4>
+        <h4 data-i18n="footer_contact_head">Contact</h4>
         <ul>
           <li><a href="tel:+94758507463">+94 75 850 7463</a></li>
           <li><a href="mailto:cpye.org.srilanka@gmail.com">cpye.org.srilanka@gmail.com</a></li>
-          <li><a href="https://wa.me/94758507463?text=Hi%21%20I%27m%20reaching%20out%20from%20the%20CPYE%20website.%20I%27d%20like%20to%20know%20more%20about%20your%20work." target="_blank" rel="noopener">Chat on WhatsApp</a></li>
+          <li><a href="https://wa.me/94758507463?text=Hi%21%20I%27m%20reaching%20out%20from%20the%20CPYE%20website.%20I%27d%20like%20to%20know%20more%20about%20your%20work." target="_blank" rel="noopener" data-i18n="footer_wa_link">Chat on WhatsApp</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span id="year">2026</span> Centre for Peace Building and Youth Empowerment. All rights reserved.</span>
+      <span>© <span id="year">2026</span> <span data-i18n="footer_rights">Centre for Peace Building and Youth Empowerment. All rights reserved.</span></span>
       <div class="figures-rule"><i></i><i></i><i></i><i></i><i></i></div>
     </div>
   </div>
@@ -240,29 +254,30 @@
   <svg viewBox="0 0 24 24" fill="#fff"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.27 4.82L2 22l5.42-1.36a9.86 9.86 0 004.62 1.17h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.06c-.24.68-1.4 1.31-1.94 1.36-.5.05-1.05.24-3.53-.74-2.98-1.18-4.9-4.2-5.05-4.4-.15-.2-1.2-1.6-1.2-3.05 0-1.45.76-2.16 1.03-2.46.27-.3.59-.37.79-.37h.57c.18 0 .42-.02.66.5.24.53.83 1.83.9 1.96.07.13.12.28.02.46-.1.18-.15.28-.3.44-.15.15-.31.34-.44.46-.15.14-.3.3-.13.6.17.3.76 1.25 1.63 2.02 1.12 1 2.06 1.31 2.36 1.46.3.15.48.13.65-.08.18-.2.75-.87.95-1.17.2-.3.4-.25.66-.15.27.1 1.72.81 2.02.96.3.15.5.22.57.35.08.13.08.73-.16 1.41z"/></svg>
 </a>
 
+<script src="js/translations.js"></script>
 <script src="js/script.js"></script>
 
 <nav class="mobile-actions" aria-label="Quick navigation">
   <div class="wrap">
     <a href="index.html">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-      <span>Home</span>
+      <span data-i18n="mob_home">Home</span>
     </a>
     <a href="about.html">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
-      <span>About</span>
+      <span data-i18n="mob_about">About</span>
     </a>
     <a href="projects.html">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
-      <span>Projects</span>
+      <span data-i18n="mob_projects">Projects</span>
     </a>
     <a href="get-involved.html" class="active">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
-      <span>Involved</span>
+      <span data-i18n="mob_involved">Involved</span>
     </a>
     <a href="contact.html">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.8a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.9.34 1.84.57 2.8.7A2 2 0 0122 16.92z"/></svg>
-      <span>Contact</span>
+      <span data-i18n="mob_contact">Contact</span>
     </a>
   </div>
 </nav>

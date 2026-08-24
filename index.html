@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Centre for Peace Building and Youth Empowerment | Effort · Learn · Grow</title>
-<meta name="description" content="A Sri Lankan non-profit building an inclusive, socially cohesive society through education, innovation and youth-led entrepreneurship.">
+<meta name="description" content="A Sri Lankan non-profit empowering vulnerable children, youth and rural resettlement communities through education, digital literacy, and peacebuilding.">
 <link rel="icon" href="images/logo.jpeg">
 <link rel="stylesheet" href="css/base.css">
 <link rel="stylesheet" href="css/home.css">
@@ -52,7 +52,7 @@
   </div>
 </header>
 
-<!-- ============ HERO ============ -->
+<!-- ============ HERO WITH 5-IMAGE SLIDESHOW ============ -->
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
@@ -60,12 +60,72 @@
       <h1 data-i18n="hero_title">Peace is built <em>locally</em>, one empowered youth at a time.</h1>
       <p class="lede" data-i18n="hero_lede">A quarter century of civil conflict reshaped Sri Lanka's social, economic and environmental fabric. Imported answers couldn't fix local problems for good — so we work with communities to solve their own challenges, through education, design thinking and enterprise.</p>
       <div class="hero-actions">
-        <a href="get-involved.html" class="btn btn-primary" data-i18n="hero_btn_involved">Get involved</a>
+        <a href="projects.html" class="btn btn-primary" data-i18n="hero_btn_involved">Explore Our Projects</a>
         <a href="about.html" class="btn btn-outline" data-i18n="hero_btn_story">Our story</a>
       </div>
     </div>
-    <div class="hero-figures">
-      <img src="images/hero-youth.jpg" alt="Sri Lankan youth collaborating on peacebuilding and community innovation in a workshop">
+    
+    <!-- 5-Image Slideshow Component -->
+    <div class="hero-slideshow-container" aria-label="Community impact slideshow" role="region">
+      <div class="hero-slides-wrapper">
+        <!-- Slide 1 -->
+        <div class="hero-slide active">
+          <img src="images/resettlement-school-celebration.jpg" alt="Children and community members celebrating outside school in resettlement village">
+          <div class="hero-slide-caption">
+            <span class="hero-slide-badge" data-i18n="slide_1_badge">Resettlement Project</span>
+            <h3 data-i18n="slide_1_caption">Empowering Children Across Resettlement Communities in Sri Lanka</h3>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="hero-slide">
+          <img src="images/it-skills-training-laptop.jpg" alt="Children learning digital skills and IT on laptops with instructor">
+          <div class="hero-slide-caption">
+            <span class="hero-slide-badge" data-i18n="slide_2_badge">Digital Literacy</span>
+            <h3 data-i18n="slide_2_caption">Future in Their Hands – IT Skills for a Brighter Future</h3>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="hero-slide">
+          <img src="images/resettlement-arts-crafts.jpg" alt="Children engaged in creative flower craft and life-skills learning">
+          <div class="hero-slide-caption">
+            <span class="hero-slide-badge" data-i18n="slide_3_badge">Life Skills</span>
+            <h3 data-i18n="slide_3_caption">Creative Learning, Leadership &amp; Confidence Building</h3>
+          </div>
+        </div>
+        <!-- Slide 4 -->
+        <div class="hero-slide">
+          <img src="images/community-youth-dialogue.jpg" alt="Youth circle dialogue and leadership gathering under trees">
+          <div class="hero-slide-caption">
+            <span class="hero-slide-badge" data-i18n="slide_4_badge">Peacebuilding</span>
+            <h3 data-i18n="slide_4_caption">Youth Leadership &amp; Community Dialogue Circles</h3>
+          </div>
+        </div>
+        <!-- Slide 5 -->
+        <div class="hero-slide">
+          <img src="images/resettlement-creative-workshop.jpg" alt="Youth and children participating in cultural and creative activities">
+          <div class="hero-slide-caption">
+            <span class="hero-slide-badge" data-i18n="slide_5_badge">Community Support</span>
+            <h3 data-i18n="slide_5_caption">Creating Safe Spaces for Rural Children to Learn &amp; Grow</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation Arrows -->
+      <button class="slideshow-nav-btn slideshow-prev" aria-label="Previous slide" type="button">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button class="slideshow-nav-btn slideshow-next" aria-label="Next slide" type="button">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+
+      <!-- Indicator Dots -->
+      <div class="slideshow-dots" aria-label="Slide indicators">
+        <button class="slideshow-dot active" aria-label="Go to slide 1" type="button"></button>
+        <button class="slideshow-dot" aria-label="Go to slide 2" type="button"></button>
+        <button class="slideshow-dot" aria-label="Go to slide 3" type="button"></button>
+        <button class="slideshow-dot" aria-label="Go to slide 4" type="button"></button>
+        <button class="slideshow-dot" aria-label="Go to slide 5" type="button"></button>
+      </div>
     </div>
   </div>
 </section>
@@ -83,7 +143,7 @@
         <div class="label" data-i18n="stat_2_lbl">Sectors — education, innovation, enterprise</div>
       </div>
       <div class="stat reveal">
-        <div class="figure figure-text" data-i18n="stat_3_val">RDS·WRDS</div>
+        <div class="figure figure-text" data-i18n="stat_3_val">RDS · WRDS</div>
         <div class="label" data-i18n="stat_3_lbl">Community bodies we partner with</div>
       </div>
       <div class="stat reveal">
@@ -171,15 +231,12 @@
         <text x="120" y="256" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="1.5" fill="#55524A">EFFORT</text>
         <text x="330" y="256" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="1.5" fill="#55524A">LEARN</text>
         <text x="520" y="256" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="1.5" fill="#55524A">GROW</text>
-
-        <circle cx="60" cy="120" r="3" fill="#D6362C" opacity="0.5"/>
-        <circle cx="600" cy="150" r="3" fill="#1D5C99" opacity="0.5"/>
       </svg>
     </div>
   </div>
 </section>
 
-<!-- ============ CORE VALUES (signature element) ============ -->
+<!-- ============ CORE VALUES ============ -->
 <section>
   <div class="wrap">
     <div class="section-head">
@@ -223,48 +280,89 @@
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow" data-i18n="projects_eyebrow">Where the work happens</span>
-      <h2 data-i18n="projects_title">Key project tracks.</h2>
+      <h2 data-i18n="projects_title">Our key ongoing projects.</h2>
     </div>
     <div class="grid-3">
+      <!-- Project 1: Resettlement -->
       <div class="project-card reveal">
         <div class="project-media">
-          <img src="images/project-education.jpg" alt="Challenge-based learning classroom in Sri Lanka">
+          <img src="images/resettlement-children-community.jpg" alt="Children and families in rural resettlement community in Sri Lanka">
         </div>
         <div class="project-body">
-          <span class="project-tag" style="background:var(--v-red);" data-i18n="proj_1_tag">Education</span>
-          <h3 data-i18n="proj_1_title">Challenge-Based Learning</h3>
-          <p data-i18n="proj_1_desc">Transforming classrooms into problem-solving studios for underserved schools.</p>
+          <span class="project-tag" style="background:var(--v-red);" data-i18n="proj_1_tag">Resettlement</span>
+          <h3 data-i18n="proj_1_title">Our Resettlement Project</h3>
+          <p data-i18n="proj_1_desc">Supporting vulnerable children and families in rural and resettlement communities across Sri Lanka through education, life-skills, and community-based support.</p>
         </div>
       </div>
+      
+      <!-- Project 2: IT Skills -->
       <div class="project-card reveal">
         <div class="project-media">
-          <img src="images/project-enterprise.jpg" alt="Youth social venture demonstration in Sri Lanka">
+          <img src="images/it-skills-girl-laptop.jpg" alt="Young girl learning digital IT skills on laptop">
         </div>
         <div class="project-body">
-          <span class="project-tag" style="background:var(--v-green);" data-i18n="proj_2_tag">Enterprise</span>
-          <h3 data-i18n="proj_2_title">Youth Social Ventures</h3>
-          <p data-i18n="proj_2_desc">Design-thinking incubation for youth-led micro and social enterprises.</p>
+          <span class="project-tag" style="background:var(--v-green);" data-i18n="proj_2_tag">Digital Skills</span>
+          <h3 data-i18n="proj_2_title">Future in Their Hands – IT Skills</h3>
+          <p data-i18n="proj_2_desc">Empowering vulnerable children with essential IT education, computer basics, and digital literacy for a brighter future.</p>
         </div>
       </div>
+      
+      <!-- Project 3: Peacebuilding -->
       <div class="project-card reveal">
         <div class="project-media">
-          <img src="images/project-peacebuilding.jpg" alt="Rural community peacebuilding dialogue in Sri Lanka">
+          <img src="images/community-youth-gathering.jpg" alt="Community youth gathering and peacebuilding dialogue">
         </div>
         <div class="project-body">
           <span class="project-tag" style="background:var(--v-blue);" data-i18n="proj_3_tag">Peacebuilding</span>
-          <h3 data-i18n="proj_3_title">Rural Community Dialogue</h3>
-          <p data-i18n="proj_3_desc">Working alongside RDS and WRDS societies to rebuild social cohesion.</p>
+          <h3 data-i18n="proj_3_title">Community Dialogue &amp; Leadership</h3>
+          <p data-i18n="proj_3_desc">Working alongside RDS and WRDS societies to rebuild social cohesion and develop grassroots youth leaders.</p>
         </div>
       </div>
     </div>
-    <div style="margin-top:36px;">
-      <a href="projects.html" class="btn btn-outline" data-i18n="proj_see_all">See all projects</a>
+    <div style="margin-top:36px;text-align:center;">
+      <a href="projects.html" class="btn btn-primary" data-i18n="proj_see_all">See all projects &amp; details</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FIELD PHOTO GALLERY ============ -->
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow" data-i18n="gallery_eyebrow">Field Impact</span>
+      <h2 data-i18n="gallery_title">Moments of change in our communities.</h2>
+    </div>
+    <div class="home-gallery-grid">
+      <div class="home-gallery-item reveal">
+        <img src="images/it-skills-inauguration.jpg" alt="Digital learning space opening celebration">
+        <div class="home-gallery-caption" data-i18n="gallery_item_1">Community IT Centre Ribbon Cutting</div>
+      </div>
+      <div class="home-gallery-item reveal">
+        <img src="images/resettlement-life-skills.jpg" alt="Life-skills and yoga workshop for children">
+        <div class="home-gallery-caption" data-i18n="gallery_item_2">Life-Skills &amp; Yoga Workshop</div>
+      </div>
+      <div class="home-gallery-item reveal">
+        <img src="images/resettlement-grama-niladhari.jpg" alt="Collaboration with Grama Niladhari and community officers">
+        <div class="home-gallery-caption" data-i18n="gallery_item_3">Partnering with Local Leaders &amp; Grama Niladhari</div>
+      </div>
+      <div class="home-gallery-item reveal">
+        <img src="images/resettlement-arts-crafts.jpg" alt="Creative paper arts and crafts session">
+        <div class="home-gallery-caption" data-i18n="gallery_item_4">Creative Arts &amp; Flower Crafting Workshop</div>
+      </div>
+      <div class="home-gallery-item reveal">
+        <img src="images/it-skills-typing-practice.jpg" alt="Child practicing typing on laptop">
+        <div class="home-gallery-caption" data-i18n="gallery_item_5">Hands-on Laptop Typing Training</div>
+      </div>
+      <div class="home-gallery-item reveal">
+        <img src="images/community-partnership-leaders.jpg" alt="Community partnership and coordinator gathering">
+        <div class="home-gallery-caption" data-i18n="gallery_item_6">Community Partnership Gathering</div>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- ============ CTA ============ -->
-<section>
+<section class="bg-deep">
   <div class="wrap">
     <div class="cta-banner reveal">
       <div>

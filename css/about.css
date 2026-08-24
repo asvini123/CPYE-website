@@ -1,6 +1,6 @@
 /* ============================================================
    about.html — about page only
-   (mission/vision split, pillars, team avatars)
+   (mission/vision split, pillars, community impact cards)
    ============================================================ */
 
 .mv-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-sm);}
@@ -17,31 +17,57 @@
 .pillar h3{font-size:20px;margin-bottom:8px;}
 .pillar p{color:var(--ink-soft);margin:0;}
 
-.team-card{text-align:left;position:relative;}
-.team-avatar{
-  width:100%;aspect-ratio:1/1;border-radius:18px;overflow:hidden;
-  display:flex;align-items:center;justify-content:center;
-  font-family:'Fraunces',serif;font-size:34px;font-weight:600;color:#fff;
-  margin-bottom:16px;box-shadow:var(--shadow-sm);background:#e0dcce;
+.impact-showcase-grid{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:24px;
 }
-.team-avatar img{
-  width:100%;height:100%;object-fit:cover;display:block;
-  transition:transform .4s cubic-bezier(0.16, 1, 0.3, 1);
+.impact-showcase-card{
+  border-radius:18px;
+  overflow:hidden;
+  background:#fff;
+  border:1px solid var(--line);
+  box-shadow:var(--shadow-sm);
+  transition:transform .3s ease;
 }
-.team-card:hover .team-avatar img{
-  transform:scale(1.08);
+.impact-showcase-card:hover{
+  transform:translateY(-4px);
 }
-.team-card h4{font-size:18px;margin-bottom:4px;}
-.team-card .role{
-  font-family:'JetBrains Mono',monospace;font-size:12px;
-  color:var(--v-blue);text-transform:uppercase;letter-spacing:0.06em;font-weight:600;
+.impact-showcase-media{
+  height:240px;
+  overflow:hidden;
+  background:var(--paper-deep);
+}
+.impact-showcase-media img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  transition:transform .5s ease;
+}
+.impact-showcase-card:hover .impact-showcase-media img{
+  transform:scale(1.06);
+}
+.impact-showcase-body{
+  padding:24px;
+}
+.impact-showcase-body h3{
+  font-size:19px;
+  margin-bottom:8px;
+}
+.impact-showcase-body p{
+  font-size:14.5px;
+  color:var(--ink-soft);
+  margin:0;
+  line-height:1.6;
 }
 
 @media (max-width:960px){
   .mv-grid{grid-template-columns:1fr;}
+  .impact-showcase-grid{grid-template-columns:1fr;gap:20px;}
 }
 @media (max-width:720px){
   .mv-panel{padding:30px 24px;}
   .pillar{grid-template-columns:60px 1fr;gap:14px;padding:24px 20px;}
-  .team-avatar{font-size:26px;}
+  .impact-showcase-media{height:200px;}
 }

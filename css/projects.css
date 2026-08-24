@@ -1,7 +1,125 @@
 /* ============================================================
-   projects.html — our projects page only
-   (project grid layout tweaks; card look is shared via base.css)
+   projects.html — our projects page
+   (flagship showcase blocks, project grid, badges)
    ============================================================ */
+
+.flagship-project{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:24px;
+  padding:48px;
+  margin-bottom:48px;
+  box-shadow:var(--shadow-sm);
+}
+.flagship-grid{
+  display:grid;
+  grid-template-columns:1.15fr 0.85fr;
+  gap:44px;
+  align-items:center;
+}
+.flagship-grid.reverse{
+  grid-template-columns:0.85fr 1.15fr;
+}
+.flagship-grid.reverse .flagship-content{
+  order:2;
+}
+.flagship-grid.reverse .flagship-media{
+  order:1;
+}
+.flagship-tag{
+  display:inline-block;
+  font-family:'JetBrains Mono',monospace;
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:0.12em;
+  padding:6px 14px;
+  border-radius:20px;
+  font-weight:700;
+  margin-bottom:16px;
+}
+.tag-resettlement{background:rgba(214, 54, 44, 0.12);color:var(--v-red);}
+.tag-itskills{background:rgba(62, 142, 79, 0.12);color:var(--v-green);}
+.flagship-title{
+  font-size:clamp(26px,3vw,36px);
+  margin-bottom:18px;
+}
+.flagship-desc p{
+  font-size:16.5px;
+  color:var(--ink-soft);
+  line-height:1.7;
+  margin-bottom:14px;
+}
+.flagship-quote{
+  margin:22px 0 0;
+  padding:16px 20px;
+  border-left:4px solid var(--clay);
+  background:var(--paper-deep);
+  border-radius:0 var(--radius) var(--radius) 0;
+  font-family:'Fraunces',serif;
+  font-size:18px;
+  font-style:italic;
+  color:var(--ink);
+}
+.flagship-quote cite{
+  display:block;
+  font-family:'Manrope',sans-serif;
+  font-size:13px;
+  font-style:normal;
+  font-weight:700;
+  margin-top:6px;
+  color:var(--ink-soft);
+}
+.flagship-media-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:16px;
+}
+.flagship-media-item{
+  border-radius:18px;
+  overflow:hidden;
+  border:1px solid var(--line);
+  box-shadow:var(--shadow-sm);
+  background:var(--paper-deep);
+}
+.flagship-media-item.main-img{
+  height:280px;
+}
+.flagship-media-item.sub-img{
+  height:180px;
+}
+.flagship-media-item img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  transition:transform .4s ease;
+}
+.flagship-media-item:hover img{
+  transform:scale(1.04);
+}
+.flagship-features{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:20px;
+}
+.feature-pill{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding:7px 14px;
+  background:var(--paper-deep);
+  border-radius:30px;
+  font-size:13.5px;
+  font-weight:600;
+  color:var(--ink);
+  border:1px solid var(--line);
+}
+.feature-pill svg{
+  width:15px;
+  height:15px;
+  color:var(--v-green);
+}
 
 .project-tag{background:var(--v-red);}
 .grid-3 .project-card:nth-child(6n+1) .project-media{background:var(--v-red);}
@@ -11,6 +129,18 @@
 .grid-3 .project-card:nth-child(6n+5) .project-media{background:var(--v-blue);}
 .grid-3 .project-card:nth-child(6n+6) .project-media{background:var(--clay);}
 
+@media (max-width:960px){
+  .flagship-project{padding:32px;}
+  .flagship-grid, .flagship-grid.reverse{grid-template-columns:1fr;gap:28px;}
+  .flagship-grid.reverse .flagship-content{order:1;}
+  .flagship-grid.reverse .flagship-media{order:2;}
+  .flagship-media-item.main-img{height:240px;}
+  .flagship-media-item.sub-img{height:160px;}
+}
+
 @media (max-width:720px){
+  .flagship-project{padding:24px 18px;border-radius:18px;}
+  .flagship-media-item.main-img{height:200px;}
+  .flagship-media-item.sub-img{height:140px;}
   .grid-3{gap:20px;}
 }

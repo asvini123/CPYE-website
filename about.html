@@ -17,24 +17,38 @@
   <div class="wrap">
     <a href="index.html" class="brand">
       <img src="images/logo.jpeg" alt="Centre for Peace Building and Youth Empowerment logo">
-      <span class="brand-name">Centre for Peace Building
-        <span>&amp; Youth Empowerment</span>
+      <span class="brand-name"><span data-i18n="brand_title">Centre for Peace Building</span>
+        <span data-i18n="brand_subtitle">&amp; Youth Empowerment</span>
       </span>
     </a>
     <nav class="main-nav" aria-label="Primary">
       <div class="nav-panel-head"><img src="images/logo.jpeg" alt="CPYE logo"><button class="nav-close" aria-label="Close menu" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/></svg></button></div>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About Us</a></li>
-        <li><a href="projects.html">Our Projects</a></li>
-        <li><a href="get-involved.html">Get Involved</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="contact.html" class="nav-cta">Donate</a></li>
+        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="about.html" class="active" data-i18n="nav_about">About Us</a></li>
+        <li><a href="projects.html" data-i18n="nav_projects">Our Projects</a></li>
+        <li><a href="get-involved.html" data-i18n="nav_involved">Get Involved</a></li>
+        <li><a href="contact.html" data-i18n="nav_contact">Contact Us</a></li>
+        <li><a href="contact.html" class="nav-cta" data-i18n="nav_donate">Donate</a></li>
       </ul>
     </nav>
-    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="site-header-actions">
+      <div class="lang-switcher">
+        <button class="lang-dropdown-toggle" type="button" aria-label="Choose Language">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 010 20 15 15 0 010-20z"/></svg>
+          <span class="current-lang-label">English</span>
+          <svg class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:12px;height:12px;"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="lang-dropdown">
+          <a href="#" class="lang-option" data-lang="en">🇬🇧 English</a>
+          <a href="#" class="lang-option" data-lang="ta">🇱🇰 தமிழ்</a>
+          <a href="#" class="lang-option" data-lang="si">🇱🇰 සිංහල</a>
+        </div>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -42,7 +56,7 @@
   <div class="wrap">
     <span class="crumb">About Us</span>
     <h1>Who we are</h1>
-    <p>A non-profit organisation striving to build an inclusive and socially cohesive society, a transformational education system, and innovative social enterprises through challenge-based learning.</p>
+    <p>A non-profit organisation striving to build an inclusive and socially cohesive society, a transformational education system, and innovative digital opportunities for vulnerable children and communities.</p>
   </div>
 </section>
 
@@ -138,19 +152,19 @@
       <div class="mv-panel">
         <span class="eyebrow">Who we are</span>
         <h3>Education, innovation, enterprise.</h3>
-        <p>We are a non-profit organisation that strives to build an inclusive and socially cohesive society, a transformational education system, and innovative social enterprises — all through challenge-based learning that puts young people in the driver's seat.</p>
+        <p>We are a non-profit organisation that strives to build an inclusive and socially cohesive society, a transformational education system, and innovative digital initiatives — putting young people and vulnerable children in the driver's seat.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============ MISSION / VISION strip ============ -->
+<!-- ============ MISSION / VISION STRIP ============ -->
 <section class="bg-ink">
   <div class="wrap">
     <div class="grid-2">
       <div class="reveal">
         <span class="eyebrow">Mission</span>
-        <h2 style="font-size:26px;">Sustainable development through education, innovation and entrepreneurship — empowering youth, promoting peace and design thinking, supporting economic ventures, improving rural regions, and safeguarding the environment.</h2>
+        <h2 style="font-size:26px;">Sustainable development through education, innovation and entrepreneurship — empowering youth, promoting peace and digital skills, supporting economic ventures, improving rural regions, and safeguarding the environment.</h2>
       </div>
       <div class="reveal">
         <span class="eyebrow">Vision</span>
@@ -216,50 +230,58 @@
       <div class="pillar">
         <span class="tag">Innovation</span>
         <div>
-          <h3>Design thinking, applied locally</h3>
-          <p>We bring human-centred design methods into rural and underserved settings, so solutions are shaped by the people who will use them.</p>
+          <h3>Digital skills &amp; design thinking</h3>
+          <p>We bring practical computer literacy and human-centred design methods into rural settings, bridging the digital divide for vulnerable children.</p>
         </div>
       </div>
       <div class="pillar">
         <span class="tag">Enterprise</span>
         <div>
-          <h3>Innovative social enterprises</h3>
-          <p>We help youth-led ventures move from idea to income, anchoring economic resilience in the same communities we serve.</p>
+          <h3>Community empowerment &amp; resilience</h3>
+          <p>We help youth-led ventures move from idea to action, anchoring economic and social resilience directly inside the communities we serve.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============ TEAM ============ -->
+<!-- ============ OUR WORK IN ACTION (REPLACED OUR TEAM SECTION) ============ -->
 <section>
   <div class="wrap">
     <div class="section-head">
-      <span class="eyebrow">Our Team</span>
-      <h2>Led by people rooted in these communities.</h2>
-      <p style="color:var(--ink-soft);">Our programme leads, field officers and volunteer coordinators work hand-in-hand with village-level partners — the same principle of participation shown in our mark, put into practice.</p>
+      <span class="eyebrow">Field Engagement</span>
+      <h2>Our work in action across Sri Lanka.</h2>
+      <p style="color:var(--ink-soft);">Working directly on the ground alongside village-level partners, educators, and community volunteers — creating real, lasting opportunities for children and youth.</p>
     </div>
-    <div class="grid-3">
-      <div class="team-card reveal">
-        <div class="team-avatar">
-          <img src="images/team-director.jpg" alt="Programme Directorate - CPYE Strategy & Partnerships">
+    <div class="impact-showcase-grid">
+      <div class="impact-showcase-card reveal">
+        <div class="impact-showcase-media">
+          <img src="images/community-partnership-leaders.jpg" alt="CPYE community partnership gathering with leaders and coordinators">
         </div>
-        <h4>Programme Directorate</h4>
-        <div class="role">Strategy &amp; partnerships</div>
+        <div class="impact-showcase-body">
+          <h3>Grassroots Leadership</h3>
+          <p>Bringing together local leaders, international supporters, teachers, and coordinators to support community-driven programmes.</p>
+        </div>
       </div>
-      <div class="team-card reveal">
-        <div class="team-avatar">
-          <img src="images/team-field-officer.jpg" alt="Field Officers - Community & RDS/WRDS Liaison">
+
+      <div class="impact-showcase-card reveal">
+        <div class="impact-showcase-media">
+          <img src="images/resettlement-school-celebration.jpg" alt="Children and youth cheering outside school in resettlement village">
         </div>
-        <h4>Field Officers</h4>
-        <div class="role">Community &amp; RDS/WRDS liaison</div>
+        <div class="impact-showcase-body">
+          <h3>Resettlement School Support</h3>
+          <p>Empowering children in rural and resettlement communities with confidence, education, and life-skills to shape their own future.</p>
+        </div>
       </div>
-      <div class="team-card reveal">
-        <div class="team-avatar">
-          <img src="images/team-youth-volunteer.jpg" alt="Youth Volunteers - Peer Educators & Mentors">
+
+      <div class="impact-showcase-card reveal">
+        <div class="impact-showcase-media">
+          <img src="images/community-youth-gathering.jpg" alt="Youth gathering and leadership circle in rural village">
         </div>
-        <h4>Youth Volunteers</h4>
-        <div class="role">Peer educators &amp; mentors</div>
+        <div class="impact-showcase-body">
+          <h3>Youth Participation</h3>
+          <p>Fostering peer collaboration, leadership skills, and inter-community trust among the next generation of changemakers.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -311,39 +333,39 @@
       <div class="footer-brand">
         <img src="images/logo.jpeg" alt="CPYE logo">
         <div>
-          <h4 style="margin:0 0 6px;">Centre for Peace Building &amp; Youth Empowerment</h4>
-          <p>Building an inclusive, socially cohesive society through education, innovation and enterprise.</p>
+          <h4 style="margin:0 0 6px;" data-i18n="brand_title">Centre for Peace Building &amp; Youth Empowerment</h4>
+          <p data-i18n="footer_desc">Building an inclusive, socially cohesive society through education, innovation and enterprise.</p>
         </div>
       </div>
       <div class="footer-col">
-        <h4>Navigate</h4>
+        <h4 data-i18n="footer_nav_head">Navigate</h4>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="projects.html">Our Projects</a></li>
-          <li><a href="get-involved.html">Get Involved</a></li>
+          <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+          <li><a href="about.html" data-i18n="nav_about">About Us</a></li>
+          <li><a href="projects.html" data-i18n="nav_projects">Our Projects</a></li>
+          <li><a href="get-involved.html" data-i18n="nav_involved">Get Involved</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Core Values</h4>
+        <h4 data-i18n="footer_values_head">Core Values</h4>
         <ul>
-          <li><a href="about.html">Equality</a></li>
-          <li><a href="about.html">Accountability</a></li>
-          <li><a href="about.html">Responsibility</a></li>
-          <li><a href="about.html">Partnership &amp; Participation</a></li>
+          <li><a href="about.html" data-i18n="val_1_title">Equality</a></li>
+          <li><a href="about.html" data-i18n="val_2_title">Accountability</a></li>
+          <li><a href="about.html" data-i18n="val_3_title">Responsibility</a></li>
+          <li><a href="about.html" data-i18n="val_4_title">Partnership &amp; Participation</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Contact</h4>
+        <h4 data-i18n="footer_contact_head">Contact</h4>
         <ul>
           <li><a href="tel:+94758507463">+94 75 850 7463</a></li>
           <li><a href="mailto:cpye.org.srilanka@gmail.com">cpye.org.srilanka@gmail.com</a></li>
-          <li><a href="https://wa.me/94758507463?text=Hi%21%20I%27m%20reaching%20out%20from%20the%20CPYE%20website.%20I%27d%20like%20to%20know%20more%20about%20your%20work." target="_blank" rel="noopener">Chat on WhatsApp</a></li>
+          <li><a href="https://wa.me/94758507463?text=Hi%21%20I%27m%20reaching%20out%20from%20the%20CPYE%20website.%20I%27d%20like%20to%20know%20more%20about%20your%20work." target="_blank" rel="noopener" data-i18n="footer_wa_link">Chat on WhatsApp</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span id="year">2026</span> Centre for Peace Building and Youth Empowerment. All rights reserved.</span>
+      <span>© <span id="year">2026</span> <span data-i18n="footer_rights">Centre for Peace Building and Youth Empowerment. All rights reserved.</span></span>
       <div class="figures-rule"><i></i><i></i><i></i><i></i><i></i></div>
     </div>
   </div>
@@ -353,29 +375,30 @@
   <svg viewBox="0 0 24 24" fill="#fff"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.27 4.82L2 22l5.42-1.36a9.86 9.86 0 004.62 1.17h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.06c-.24.68-1.4 1.31-1.94 1.36-.5.05-1.05.24-3.53-.74-2.98-1.18-4.9-4.2-5.05-4.4-.15-.2-1.2-1.6-1.2-3.05 0-1.45.76-2.16 1.03-2.46.27-.3.59-.37.79-.37h.57c.18 0 .42-.02.66.5.24.53.83 1.83.9 1.96.07.13.12.28.02.46-.1.18-.15.28-.3.44-.15.15-.31.34-.44.46-.15.14-.3.3-.13.6.17.3.76 1.25 1.63 2.02 1.12 1 2.06 1.31 2.36 1.46.3.15.48.13.65-.08.18-.2.75-.87.95-1.17.2-.3.4-.25.66-.15.27.1 1.72.81 2.02.96.3.15.5.22.57.35.08.13.08.73-.16 1.41z"/></svg>
 </a>
 
+<script src="js/translations.js"></script>
 <script src="js/script.js"></script>
 
 <nav class="mobile-actions" aria-label="Quick navigation">
   <div class="wrap">
     <a href="index.html">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-      <span>Home</span>
+      <span data-i18n="mob_home">Home</span>
     </a>
     <a href="about.html" class="active">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
-      <span>About</span>
+      <span data-i18n="mob_about">About</span>
     </a>
     <a href="projects.html">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
-      <span>Projects</span>
+      <span data-i18n="mob_projects">Projects</span>
     </a>
     <a href="get-involved.html">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
-      <span>Involved</span>
+      <span data-i18n="mob_involved">Involved</span>
     </a>
     <a href="contact.html">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.8a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.9.34 1.84.57 2.8.7A2 2 0 0122 16.92z"/></svg>
-      <span>Contact</span>
+      <span data-i18n="mob_contact">Contact</span>
     </a>
   </div>
 </nav>

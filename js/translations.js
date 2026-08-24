@@ -17,6 +17,18 @@ const translations = {
     "hero_btn_involved": "Get involved",
     "hero_btn_story": "Our story",
 
+    // Slideshow
+    "slide_1_badge": "Resettlement Project",
+    "slide_1_caption": "Empowering Children Across Resettlement Communities in Sri Lanka",
+    "slide_2_badge": "Digital Literacy",
+    "slide_2_caption": "Future in Their Hands – IT Skills for a Brighter Future",
+    "slide_3_badge": "Life Skills",
+    "slide_3_caption": "Creative Learning, Leadership & Confidence Building",
+    "slide_4_badge": "Peacebuilding",
+    "slide_4_caption": "Youth Leadership & Community Dialogue Circles",
+    "slide_5_badge": "Community Support",
+    "slide_5_caption": "Creating Safe Spaces for Rural Children to Learn & Grow",
+
     // Stats
     "stat_1_val": "5",
     "stat_1_lbl": "Core values guiding every programme",
@@ -54,17 +66,27 @@ const translations = {
 
     // Key Project Tracks
     "projects_eyebrow": "Where the work happens",
-    "projects_title": "Key project tracks.",
-    "proj_1_tag": "Education",
-    "proj_1_title": "Challenge-Based Learning",
-    "proj_1_desc": "Transforming classrooms into problem-solving studios for underserved schools.",
-    "proj_2_tag": "Enterprise",
-    "proj_2_title": "Youth Social Ventures",
-    "proj_2_desc": "Design-thinking incubation for youth-led micro and social enterprises.",
+    "projects_title": "Our key ongoing projects.",
+    "proj_1_tag": "Resettlement",
+    "proj_1_title": "Our Resettlement Project",
+    "proj_1_desc": "Supporting vulnerable children and families in rural and resettlement communities across Sri Lanka through education, life-skills, and community-based support.",
+    "proj_2_tag": "Digital Skills",
+    "proj_2_title": "Future in Their Hands – IT Skills",
+    "proj_2_desc": "Empowering vulnerable children with essential IT education, computer basics, and digital literacy for a brighter future.",
     "proj_3_tag": "Peacebuilding",
-    "proj_3_title": "Rural Community Dialogue",
-    "proj_3_desc": "Working alongside RDS and WRDS societies to rebuild social cohesion.",
+    "proj_3_title": "Community Dialogue & Leadership",
+    "proj_3_desc": "Working alongside RDS and WRDS societies to rebuild social cohesion and develop grassroots youth leaders.",
     "proj_see_all": "See all projects",
+
+    // Gallery
+    "gallery_eyebrow": "Field Impact",
+    "gallery_title": "Moments of change in our communities.",
+    "gallery_item_1": "Community IT Centre Ribbon Cutting",
+    "gallery_item_2": "Life-Skills & Yoga Workshop",
+    "gallery_item_3": "Partnering with Local Leaders & Grama Niladhari",
+    "gallery_item_4": "Creative Arts & Flower Crafting Workshop",
+    "gallery_item_5": "Hands-on Laptop Typing Training",
+    "gallery_item_6": "Community Youth Gathering & Celebration",
 
     // CTA
     "cta_eyebrow": "Effort · Learn · Grow",
@@ -107,6 +129,18 @@ const translations = {
     "hero_btn_involved": "எங்களுடன் இணையுங்கள்",
     "hero_btn_story": "எமது பயணம்",
 
+    // Slideshow
+    "slide_1_badge": "மீள்குடியேற்ற திட்டம்",
+    "slide_1_caption": "இலங்கையின் மீள்குடியேற்ற சமூகங்களில் சிறுவர்களை வலுவூட்டுதல்",
+    "slide_2_badge": "டிஜிட்டல் கல்வி",
+    "slide_2_caption": "அவர்களின் கைகளில் எதிர்காலம் – ஒளிமயமான எதிர்காலத்திற்கான IT திறன்கள்",
+    "slide_3_badge": "வாழ்க்கைத் திறன்",
+    "slide_3_caption": "ஆக்கப்பூர்வமான கற்றல், தலைமைத்துவம் மற்றும் தன்னம்பிக்கை வளர்த்தல்",
+    "slide_4_badge": "சமாதானக் கட்டமைப்பு",
+    "slide_4_caption": "இளைஞர் தலைமைத்துவம் மற்றும் சமூக கலந்துரையாடல் வட்டங்கள்",
+    "slide_5_badge": "சமூக ஆதரவு",
+    "slide_5_caption": "கிராமப்புற குழந்தைகள் கற்று வளர பாதுகாப்பான சூழலை உருவாக்குதல்",
+
     // Stats
     "stat_1_val": "5",
     "stat_1_lbl": "அடிப்படை விழுமியங்கள் (Core Values)",
@@ -144,17 +178,27 @@ const translations = {
 
     // Key Project Tracks
     "projects_eyebrow": "களப் பணிகள்",
-    "projects_title": "முக்கிய திட்டப் பிரிவுகள்.",
-    "proj_1_tag": "கல்வி",
-    "proj_1_title": "சவால் சார்ந்த கற்றல் ஆய்வகங்கள்",
-    "proj_1_desc": "வகுப்பறைகளை நிஜ உலகப் பிரச்சினைகளுக்கு தீர்வு காணும் ஆக்கப்பூர்வ கூடங்களாக மாற்றுதல்.",
-    "proj_2_tag": "தொழில்முனைவு",
-    "proj_2_title": "இளைஞர் சமூக முயற்சிகள்",
-    "proj_2_desc": "வடிவமைப்பு சிந்தனை மற்றும் வழிகாட்டல் மூலம் இளைஞர் சமூக வணிகங்களை உருவாக்குதல்.",
+    "projects_title": "எமது முக்கிய களத் திட்டங்கள்.",
+    "proj_1_tag": "மீள்குடியேற்றம்",
+    "proj_1_title": "எமது மீள்குடியேற்ற திட்டம் (Resettlement Project)",
+    "proj_1_desc": "இலங்கையின் கிராமப்புற மற்றும் மீள்குடியேற்றப் பகுதிகளில் உள்ள நலிவுற்ற குழந்தைகள் மற்றும் குடும்பங்களுக்கு கல்வி, வாழ்க்கைத் திறன்கள் வழங்கி ஆதரவளித்தல்.",
+    "proj_2_tag": "IT & டிஜிட்டல் கல்வி",
+    "proj_2_title": "அவர்களின் கைகளில் எதிர்காலம் – IT திறன்கள்",
+    "proj_2_desc": "நலிவுற்ற குழந்தைகளுக்கு கணினிப் பயிற்சி, டிஜிட்டல் அறிவு மற்றும் IT திறன்களை வழங்கி ஒளிமயமான எதிர்காலத்தை அமைத்துத் தருதல்.",
     "proj_3_tag": "சமாதானம்",
-    "proj_3_title": "கிராமப்புற சமூக உரையாடல்",
+    "proj_3_title": "சமூக உரையாடல் மற்றும் தலைமைத்துவம்",
     "proj_3_desc": "RDS மற்றும் WRDS அமைப்புகளுடன் இணைந்து சமூக நல்லிணக்கத்தை மீண்டும் கட்டியெழுப்புதல்.",
     "proj_see_all": "அனைத்து திட்டங்களையும் காண்க",
+
+    // Gallery
+    "gallery_eyebrow": "களப் புகைப்படங்கள்",
+    "gallery_title": "எமது சமூகங்களில் நிகழும் மாற்றங்கள்.",
+    "gallery_item_1": "டிஜிட்டல் கற்றல் மைய தொடக்க விழா",
+    "gallery_item_2": "வாழ்க்கைத் திறன் மற்றும் யோகா பயிற்சிப் பட்டறை",
+    "gallery_item_3": "கிராம சேவகர் மற்றும் சமூகத் தலைவர்களுடன் இணைந்து பணி",
+    "gallery_item_4": "ஆக்கப்பூர்வமான கைவினை மற்றும் கலைப் பட்டறை",
+    "gallery_item_5": "மடிக்கணினி தட்டச்சு நேரடிப் பயிற்சி",
+    "gallery_item_6": "இளைஞர்கள் மற்றும் குழந்தைகள் பெருந்திரள் ஒன்றுகூடல்",
 
     // CTA
     "cta_eyebrow": "முயற்சி · கற்றல் · வளர்ச்சி",
@@ -197,6 +241,18 @@ const translations = {
     "hero_btn_involved": "සම්බන්ධ වන්න",
     "hero_btn_story": "අපගේ ගමන",
 
+    // Slideshow
+    "slide_1_badge": "නැවත පදිංචි කිරීමේ ව්‍යාපෘතිය",
+    "slide_1_caption": "නැවත පදිංචි කළ ප්‍රජාවන්හි දරුවන් සවිබල ගැන්වීම",
+    "slide_2_badge": "ඩිජිටල් අධ්‍යාපනය",
+    "slide_2_caption": "ඔවුන්ගේ අතේ අනාගතය – තොරතුරු තාක්ෂණ පුහුණුව",
+    "slide_3_badge": "ජීවන කුසලතා",
+    "slide_3_caption": "නිර්මාණශීලී ඉගෙනීම සහ නායකත්ව පුහුණුව",
+    "slide_4_badge": "සාම ගොඩනැගීම",
+    "slide_4_caption": "තරුණ නායකත්වය සහ ප්‍රජා සංවාද මණ්ඩප",
+    "slide_5_badge": "ප්‍රජා සහයෝගය",
+    "slide_5_caption": "ග්‍රාමීය දරුවන්ට ඉගෙනීමට ආරක්ෂිත පරිසරයක්",
+
     // Stats
     "stat_1_val": "5",
     "stat_1_lbl": "මූලික වටිනාකම් (Core Values)",
@@ -233,18 +289,26 @@ const translations = {
     "val_5_desc": "ප්‍රජාව වෙනුවෙන් නොව, ප්‍රජාව සමගම වැඩසටහන් ගොඩනැගීම.",
 
     // Key Project Tracks
-    "projects_eyebrow": "ක්‍රියාකාරී ක්ෂේත්‍ර",
-    "projects_title": "ප්‍රධාන ව්‍යාපෘති.",
-    "proj_1_tag": "අධ්‍යාපනය",
-    "proj_1_title": "අභියෝග පාදක ඉගෙනුම් මැදිරි",
-    "proj_1_desc": "පන්ති කාමර සැබෑ දේශීය ගැටලු විසඳන නිර්මාණශීලී වැඩබිම් බවට පත් කිරීම.",
-    "proj_2_tag": "ව්‍යවසායකත්වය",
-    "proj_2_title": "තරුණ සමාජ ව්‍යවසාය",
-    "proj_2_desc": "තරුණ නායකත්වයෙන් යුත් ක්ෂුද්‍ර හා සමාජ ව්‍යවසායයන් සඳහා මගපෙන්වීම.",
+    "proj_1_tag": "නැවත පදිංචි කිරීම",
+    "proj_1_title": "නැවත පදිංචි කිරීමේ ව්‍යාපෘතිය",
+    "proj_1_desc": "ග්‍රාමීය හා නැවත පදිංචි කළ ප්‍රජාවන්හි දරුවන් සහ පවුල් සඳහා අධ්‍යාපනය සහ ප්‍රජා සහයෝගය ලබාදීම.",
+    "proj_2_tag": "තොරතුරු තාක්ෂණය",
+    "proj_2_title": "අනාගතය ඔවුන්ගේ අතේ – IT කුසලතා",
+    "proj_2_desc": "අඩු පහසුකම් සහිත දරුවන්ට පරිගණක හා ඩිජිටල් සාක්ෂරතා පුහුණුව ලබාදීම.",
     "proj_3_tag": "සාමය",
-    "proj_3_title": "ග්‍රාමීය ප්‍රජා සංවාද",
+    "proj_3_title": "ප්‍රජා සංවාද සහ නායකත්වය",
     "proj_3_desc": "RDS සහ WRDS සමිති සමග එක්ව සමාජ ඒකාබද්ධතාවය යළි ගොඩනැගීම.",
     "proj_see_all": "සියලු ව්‍යාපෘති බලන්න",
+
+    // Gallery
+    "gallery_eyebrow": "ඡායාරූප ගැලරිය",
+    "gallery_title": "අපගේ ප්‍රජාවන්හි වෙනස්කම්වල අවස්ථා.",
+    "gallery_item_1": "තොරතුරු තාක්ෂණ මධ්‍යස්ථාන සමාරම්භය",
+    "gallery_item_2": "ජීවන කුසලතා සහ යෝග වැඩමුළුව",
+    "gallery_item_3": "ප්‍රජා නායකයින් සහ ග්‍රාම නිලධාරී හමුව",
+    "gallery_item_4": "නිර්මාණශීලී කලා හා අත්කම් වැඩමුළුව",
+    "gallery_item_5": "පරිගණක යතුරුලියන ප්‍රායෝගික පුහුණුව",
+    "gallery_item_6": "ප්‍රජා තරුණ සහ ළමා සුහද හමුව",
 
     // CTA
     "cta_eyebrow": "උත්සාහය · ඉගෙනීම · වර්ධනය",
