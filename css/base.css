@@ -654,12 +654,27 @@ body.nav-open .wa-float{
   .cta-actions .btn{width:100%;justify-content:center;}
   .img-frame{padding:12px;border-radius:18px;}
   .page-hero{padding:38px 0 30px;}
-  .values-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+  
+  .values-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:16px;
+  }
+  .values-grid .value-card:nth-child(5){
+    grid-column: 1 / -1;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
 }
 
-@media (max-width:400px){
+@media (max-width:520px){
   .wrap{padding:0 16px;}
   .btn{padding:12px 20px;font-size:13.5px;}
   .brand-name{display:none;}
-  .values-grid{grid-template-columns:1fr;}
+  .values-grid{grid-template-columns:1fr;gap:14px;}
+  .values-grid .value-card:nth-child(5){
+    grid-column: auto;
+    max-width: none;
+    margin: 0;
+  }
 }
