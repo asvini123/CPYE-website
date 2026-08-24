@@ -10,14 +10,13 @@ const translations = {
     "nav_contact": "Contact Us",
     "nav_donate": "Donate",
 
-    // Hero
+    // Home Hero & Slideshow
     "hero_eyebrow": "A non-profit based in Sri Lanka",
     "hero_title": "Peace is built <em>locally</em>, one empowered youth at a time.",
     "hero_lede": "A quarter century of civil conflict reshaped Sri Lanka's social, economic and environmental fabric. Imported answers couldn't fix local problems for good — so we work with communities to solve their own challenges, through education, design thinking and enterprise.",
     "hero_btn_involved": "Get involved",
     "hero_btn_story": "Our story",
 
-    // Slideshow
     "slide_1_badge": "Resettlement Project",
     "slide_1_caption": "Empowering Children Across Resettlement Communities in Sri Lanka",
     "slide_2_badge": "Digital Literacy",
@@ -76,7 +75,7 @@ const translations = {
     "proj_3_tag": "Peacebuilding",
     "proj_3_title": "Community Dialogue & Leadership",
     "proj_3_desc": "Working alongside RDS and WRDS societies to rebuild social cohesion and develop grassroots youth leaders.",
-    "proj_see_all": "See all projects",
+    "proj_see_all": "See all projects & details",
 
     // Gallery
     "gallery_eyebrow": "Field Impact",
@@ -86,16 +85,107 @@ const translations = {
     "gallery_item_3": "Partnering with Local Leaders & Grama Niladhari",
     "gallery_item_4": "Creative Arts & Flower Crafting Workshop",
     "gallery_item_5": "Hands-on Laptop Typing Training",
-    "gallery_item_6": "Community Youth Gathering & Celebration",
+    "gallery_item_6": "Community Partnership Gathering",
 
-    // CTA
+    // Projects Page Detailed Texts
+    "projects_page_crumb": "Our Projects",
+    "projects_page_title": "Current ongoing initiatives",
+    "projects_page_lede": "Every project traces back to our core values — designed directly with communities and delivered alongside schools, village leaders, RDS/WRDS societies, and youth networks.",
+    "flagship_tag_1": "Flagship Initiative",
+    "flagship_title_1": "Our Resettlement Project",
+    "flagship_p1_1": "Our Resettlement Project supports vulnerable children and families living in rural and resettlement communities across Sri Lanka. The project aims to create better opportunities for children who face economic, educational, and social challenges.",
+    "flagship_p2_1": "Through education, life-skills development, digital literacy, leadership activities, and community-based support, we help children build confidence, develop essential skills, and create a brighter future.",
+    "flagship_p3_1": "We work closely with local communities, schools, volunteers, and partners to identify children who need support most and provide them with opportunities to learn, grow, and reach their full potential.",
+    "flagship_quote_1": "“Our goal is simple: to empower vulnerable children today so they can become confident, capable, and active members of their communities tomorrow.”",
+    "flagship_pill_1_1": "Education Support",
+    "flagship_pill_1_2": "Life-Skills & Leadership",
+    "flagship_pill_1_3": "Digital Literacy",
+    "flagship_pill_1_4": "Community Care",
+
+    "flagship_tag_2": "Digital Empowerment Track",
+    "flagship_title_2": "Future in Their Hands – IT Skills for a Brighter Future",
+    "flagship_p1_2": "Future in Their Hands is a project dedicated to empowering vulnerable children by providing them with access to IT education and digital skills.",
+    "flagship_p2_2": "Many children in rural and disadvantaged communities have limited access to computers and digital learning opportunities. Through this project, we aim to bridge the digital gap and give children the knowledge and confidence they need to participate in an increasingly digital world.",
+    "flagship_p3_2": "The children receive practical training in computer basics, Microsoft Office, internet skills, digital communication, online safety, and other essential IT skills. These skills can support their education, future employment opportunities, and personal development.",
+    "flagship_p4_2": "Our vision is to ensure that a child’s background or financial situation does not limit their future.",
+    "flagship_quote_2": "“Give a child the right skills today, and you give them the power to shape their own future.”",
+    "flagship_pill_2_1": "Computer Basics",
+    "flagship_pill_2_2": "Microsoft Office",
+    "flagship_pill_2_3": "Internet & Digital Safety",
+    "flagship_pill_2_4": "Future Employment Readiness",
+
+    // About Page Texts
+    "about_crumb": "About Us",
+    "about_title": "Built on five values, powered by communities.",
+    "about_lede": "The Centre for Peace Building and Youth Empowerment is a Sri Lankan non-profit that addresses the deep-rooted social, economic and environmental consequences of 25 years of civil conflict.",
+    "about_work_eyebrow": "Impact in the field",
+    "about_work_title": "Our Work in Action",
+    "about_work_desc": "Engaging closely with local community officers, youth groups, and village leaders across Sri Lanka to drive meaningful change.",
+
+    // Get Involved Page Texts
+    "involved_crumb": "Get Involved",
+    "involved_title": "Four ways to stand with Sri Lanka’s youth.",
+    "involved_lede": "Whether you bring time, expertise, funding or partnership — there is a clear and direct path for you to make an impact.",
+    "way_1_title": "Volunteer Your Skills",
+    "way_1_desc": "Teach a class, mentor a youth entrepreneur, support a community project, or help facilitate design thinking workshops in rural communities.",
+    "way_2_title": "Sponsor a Project",
+    "way_2_desc": "Fund a specific track — such as the Resettlement Children Project, IT equipment for a village school, or digital literacy classes.",
+    "way_3_title": "Institutional Partnership",
+    "way_3_desc": "Partner with CPYE as an NGO, university, funding body or government agency to scale community-driven peace and enterprise programmes.",
+    "way_4_title": "Spread the Word",
+    "way_4_desc": "Share our stories, connect us with networks, and advocate for community-led peacebuilding and youth empowerment in Sri Lanka.",
+
+    // Contact Page Texts
+    "contact_crumb": "Contact Us",
+    "contact_title": "Let's talk — WhatsApp is the fastest way.",
+    "contact_lede": "No complicated forms or delays. Tap the button below and we'll pick up the conversation directly on WhatsApp.",
+    "contact_fastest_eyebrow": "Fastest response",
+    "contact_wa_title": "Chat with us on WhatsApp",
+    "contact_wa_desc": "Tap below to open a direct chat with our team — for volunteering, partnerships, project sponsorships, or general enquiries.",
+    "contact_other_eyebrow": "Other ways to reach us",
+    "contact_phone_lbl": "Phone",
+    "contact_email_lbl": "Email",
+    "contact_based_lbl": "Based in",
+    "contact_based_val": "Sri Lanka",
+    "contact_hours_title": "Office hours",
+    "contact_hours_desc": "Monday – Friday, 9:00 AM – 5:00 PM (Sri Lanka Standard Time). Outside these hours, WhatsApp messages are always welcome.",
+
+    // Donate Page Texts
+    "donate_eyebrow": "Effort · Learn · Grow",
+    "donate_hero_title": "Your Contribution Powers a Child's Future",
+    "donate_hero_p": "Every rupee directly supports digital education, life-skills, and essential learning materials for children in rural resettlement communities across Sri Lanka.",
+    "donate_form_title": "Make a Contribution",
+    "donate_form_subtitle": "Select your contribution amount and details. We will connect you directly with our donation desk on WhatsApp.",
+    "donate_lbl_project": "Select Project / Track",
+    "donate_lbl_amount": "Select Contribution Amount (LKR)",
+    "donate_lbl_name": "Your Full Name",
+    "donate_lbl_phone": "WhatsApp / Phone Number",
+    "donate_lbl_email": "Email Address (Optional)",
+    "donate_lbl_msg": "Message / Dedication (Optional)",
+    "donate_btn_submit": "Complete Donation via WhatsApp",
+    "donate_secure_note": "Direct connection to CPYE’s verified WhatsApp (+94 75 850 7463) for instant confirmation.",
+    "donate_sidebar_impact_title": "How Your Donation Helps",
+    "donate_impact_1": "Provides essential school stationery and learning supplies for 1 resettlement child.",
+    "donate_impact_2": "Supports 1 month of digital literacy & typing training in our rural IT hub.",
+    "donate_impact_3": "Funds creative life-skills and confidence-building workshops for a group of children.",
+    "donate_impact_4": "Helps equip community computer centers with laptops, accessories and internet access.",
+    "donate_sidebar_bank_title": "Direct Bank Transfer",
+    "donate_bank_desc": "You can also make a direct deposit or online transfer to CPYE’s official non-profit account:",
+    "donate_bank_acc_name": "Account Name",
+    "donate_bank_name": "Bank",
+    "donate_bank_acc_no": "Account No",
+    "donate_bank_country": "Country",
+    "donate_bank_note": "After completing a transfer, please send your slip/receipt to cpye.org.srilanka@gmail.com or WhatsApp for your official receipt.",
+    "donate_sidebar_help_title": "Questions about Donating?",
+    "donate_sidebar_help_desc": "Speak directly with our finance and partnership coordinator on WhatsApp.",
+    "donate_sidebar_help_btn": "Chat on WhatsApp (+94 75 850 7463)",
+
+    // CTA & Footer
     "cta_eyebrow": "Effort · Learn · Grow",
     "cta_title": "Your effort helps a community learn to grow on its own.",
     "cta_desc": "Donate, volunteer, or partner with us — every route leads to the same peace.",
     "cta_btn_action": "Donate / Volunteer",
     "cta_btn_wa": "WhatsApp",
-
-    // Footer
     "footer_desc": "Building an inclusive, socially cohesive society through education, innovation and enterprise.",
     "footer_nav_head": "Navigate",
     "footer_values_head": "Core Values",
@@ -107,7 +197,6 @@ const translations = {
     "mob_home": "Home",
     "mob_about": "About",
     "mob_projects": "Projects",
-    "mob_involved": "Involved",
     "mob_contact": "Contact"
   },
 
@@ -122,14 +211,13 @@ const translations = {
     "nav_contact": "தொடர்பு",
     "nav_donate": "நன்கொடை",
 
-    // Hero
+    // Home Hero & Slideshow
     "hero_eyebrow": "இலங்கையை மையமாகக் கொண்ட இலாப நோக்கற்ற அமைப்பு",
     "hero_title": "சமாதானம் <em>உள்ளூரிலேயே</em> மலர்கிறது, ஒவ்வொரு இளைஞர் மூலமாகவும்.",
     "hero_lede": "இலங்கையில் கால் நூற்றாண்டு கால உள்நாட்டு மோதல் நாட்டின் சமூக, பொருளாதார மற்றும் சுற்றுச்சூழல் நிலைகளில் பெரும் தாக்கத்தை ஏற்படுத்தியது. இறக்குமதி செய்யப்பட்ட பதில்களால் உள்ளூர் பிரச்சினைகளை தீர்க்க முடியவில்லை. எனவே, உள்ளூர் மக்கள் தங்களது சொந்த சவால்களைத் தாங்களே எதிர்கொள்ளும் ஆற்றலை உருவாக்குகிறோம்.",
     "hero_btn_involved": "எங்களுடன் இணையுங்கள்",
     "hero_btn_story": "எமது பயணம்",
 
-    // Slideshow
     "slide_1_badge": "மீள்குடியேற்ற திட்டம்",
     "slide_1_caption": "இலங்கையின் மீள்குடியேற்ற சமூகங்களில் சிறுவர்களை வலுவூட்டுதல்",
     "slide_2_badge": "டிஜிட்டல் கல்வி",
@@ -200,14 +288,105 @@ const translations = {
     "gallery_item_5": "மடிக்கணினி தட்டச்சு நேரடிப் பயிற்சி",
     "gallery_item_6": "இளைஞர்கள் மற்றும் குழந்தைகள் பெருந்திரள் ஒன்றுகூடல்",
 
-    // CTA
+    // Projects Page Detailed Texts
+    "projects_page_crumb": "எமது திட்டங்கள்",
+    "projects_page_title": "தற்போது நடைபெறும் முக்கிய களப்பணிகள்",
+    "projects_page_lede": "ஒவ்வொரு திட்டமும் எமது விழுமியங்களை அடிப்படையாகக் கொண்டு, சமூகங்கள், பாடசாலைகள், கிராமத் தலைவர்கள் மற்றும் இளைஞர் வலையமைப்புகளுடன் இணைந்து செயல்படுத்தப்படுகிறது.",
+    "flagship_tag_1": "முதன்மைத் திட்டம் (Flagship Initiative)",
+    "flagship_title_1": "எமது மீள்குடியேற்ற திட்டம் (Resettlement Project)",
+    "flagship_p1_1": "எமது மீள்குடியேற்றத் திட்டம் இலங்கையின் கிராமப்புற மற்றும் மீள்குடியேற்ற சமூகங்களில் வாழும் பாதிக்கப்படக்கூடிய குழந்தைகள் மற்றும் குடும்பங்களுக்கு ஆதரவளிக்கிறது. பொருளாதார, கல்வி மற்றும் சமூக சவால்களை எதிர்கொள்ளும் குழந்தைகளுக்கு சிறந்த வாய்ப்புகளை உருவாக்குவதை இத்திட்டம் நோக்கமாகக் கொண்டுள்ளது.",
+    "flagship_p2_1": "கல்வி, வாழ்க்கைத் திறன் மேம்பாடு, டிஜிட்டல் எழுத்தறிவு, தலைமைத்துவ நடவடிக்கைகள் மற்றும் சமூகம் சார்ந்த ஆதரவின் மூலம் குழந்தைகள் தன்னம்பிக்கையை வளர்க்கவும், அத்தியாவசிய திறன்களை மேம்படுத்தவும், பிரகாசமான எதிர்காலத்தை உருவாக்கவும் உதவுகிறோம்.",
+    "flagship_p3_1": "மிகவும் உதவி தேவைப்படும் குழந்தைகளைக் கண்டறிந்து, அவர்கள் கற்கவும், வளரவும், தங்களது முழுத் திறனையும் அடையவும் வாய்ப்புகளை வழங்க உள்ளூர் சமூகங்கள், பாடசாலைகள், தன்னார்வலர்கள் மற்றும் பங்காளர்களுடன் நாங்கள் நெருக்கமாகப் பணியாற்றுகிறோம்.",
+    "flagship_quote_1": "“எமது குறிக்கோள் எளிமையானது: பாதிக்கப்படக்கூடிய குழந்தைகளை இன்றே வலுவூட்டுவது, இதன் மூலம் அவர்கள் நாளைய சமூகத்தின் தன்னம்பிக்கையும் திறமையும் கொண்ட சுறுசுறுப்பான உறுப்பினர்களாக மாறுவார்கள்.”",
+    "flagship_pill_1_1": "கல்வி ஆதரவு",
+    "flagship_pill_1_2": "வாழ்க்கைத் திறன் & தலைமைத்துவம்",
+    "flagship_pill_1_3": "டிஜிட்டல் கல்வி",
+    "flagship_pill_1_4": "சமூகப் பராமரிப்பு",
+
+    "flagship_tag_2": "டிஜிட்டல் வலுவூட்டல் பிரிவு",
+    "flagship_title_2": "அவர்களின் கைகளில் எதிர்காலம் – ஒளிமயமான எதிர்காலத்திற்கான IT திறன்கள்",
+    "flagship_p1_2": "அவர்களின் கைகளில் எதிர்காலம் என்பது பாதிக்கப்படக்கூடிய குழந்தைகளுக்கு தகவல் தொழில்நுட்பக் கல்வி மற்றும் டிஜிட்டல் திறன்களை வழங்குவதன் மூலம் அவர்களை வலுவூட்டுவதற்காக அர்ப்பணிக்கப்பட்ட ஒரு திட்டமாகும்.",
+    "flagship_p2_2": "கிராமப்புற மற்றும் பின்தங்கிய சமூகங்களில் உள்ள பல குழந்தைகளுக்கு கணினிகள் மற்றும் டிஜிட்டல் கற்றல் வாய்ப்புகள் குறைவாகவே கிடைக்கின்றன. இத்திட்டத்தின் மூலம், டிஜிட்டல் இடைவெளியைக் குறைத்து, வளர்ந்து வரும் டிஜிட்டல் உலகில் பங்கேற்க குழந்தைகளுக்குத் தேவையான அறிவையும் தன்னம்பிக்கையையும் வழங்குவதை நோக்கமாகக் கொண்டுள்ளோம்.",
+    "flagship_p3_2": "குழந்தைகள் அடிப்படை கணினி அறிவு, மைக்ரோசாப்ட் ஆபிஸ் (Microsoft Office), இணையப் பயன்பாட்டுத் திறன்கள், டிஜிட்டல் தொடர்பு, இணையப் பாதுகாப்பு மற்றும் பிற அத்தியாவசிய IT திறன்களில் நடைமுறைப் பயிற்சிகளைப் பெறுகின்றனர். இத்திறன்கள் அவர்களின் கல்வி, எதிர்கால வேலைவாய்ப்புகள் மற்றும் தனிப்பட்ட வளர்ச்சிக்கு ஆதரவளிக்கின்றன.",
+    "flagship_p4_2": "ஒரு குழந்தையின் பின்னணியோ அல்லது நிதி நிலையோ அவர்களின் எதிர்காலத்தை மட்டுப்படுத்தக்கூடாது என்பதை உறுதி செய்வதே எமது பார்வையாகும்.",
+    "flagship_quote_2": "“ஒரு குழந்தைக்கு இன்று சரியான திறன்களைக் கொடுங்கள், அவர்கள் தங்களின் எதிர்காலத்தை தாங்களே வடிவமைத்துக் கொள்ளும் சக்தியைப் பெறுவார்கள்.”",
+    "flagship_pill_2_1": "அடிப்படை கணினி அறிவு",
+    "flagship_pill_2_2": "மைக்ரோசாப்ட் ஆபிஸ் (Office)",
+    "flagship_pill_2_3": "இணையம் & இணையப் பாதுகாப்பு",
+    "flagship_pill_2_4": "எதிர்கால வேலைவாய்ப்புத் தயார்நிலை",
+
+    // About Page Texts
+    "about_crumb": "எங்களைப் பற்றி",
+    "about_title": "ஐந்து விழுமியங்களில் கட்டமைக்கப்பட்டு, சமூகங்களால் இயக்கப்படுகிறது.",
+    "about_lede": "சமாதானக் கட்டமைப்பு மற்றும் இளைஞர் வலுவூட்டல் மையம் என்பது 25 ஆண்டுகால உள்நாட்டு மோதலின் சமூக, பொருளாதார மற்றும் சுற்றுச்சூழல் சவால்களை எதிர்கொள்ளும் ஓர் இலங்கை இலாப நோக்கற்ற அமைப்பாகும்.",
+    "about_work_eyebrow": "களத்தில் எமது தாக்கம்",
+    "about_work_title": "களத்தில் எமது நற்பணிகள்",
+    "about_work_desc": "உள்ளூர் சமூக அதிகாரிகள், இளைஞர் குழுக்கள் மற்றும் கிராமத் தலைவர்களுடன் நெருக்கமாக இணைந்து நிலையான மாற்றங்களை முன்னெடுக்கிறோம்.",
+
+    // Get Involved Page Texts
+    "involved_crumb": "இணையுங்கள்",
+    "involved_title": "இலங்கை இளைஞர்களுடன் துணை நிற்க 4 வழிகள்.",
+    "involved_lede": "உங்கள் நேரம், நிபுணத்துவம், நிதி அல்லது கூட்டாண்மை மூலம் எமது சமூக மாற்றத்தில் நீங்களும் பங்குதாரராகலாம்.",
+    "way_1_title": "தன்னார்வத் திறன் பங்களிப்பு",
+    "way_1_desc": "கற்பித்தல், இளைஞர் தொழில்முனைவோருக்கு வழிகாட்டுதல், அல்லது வடிவமைப்பு சிந்தனைப் பட்டறைகளை எளிதாக்குதல்.",
+    "way_2_title": "திட்டத்திற்கு நிதியுதவி செய்தல்",
+    "way_2_desc": "மீள்குடியேற்ற குழந்தைகள் திட்டம், கிராமப் பாடசாலைகளுக்கான IT உபகரணங்கள் அல்லது டிஜிட்டல் கல்வி வகுப்புகளுக்கு ஆதரவளியுங்கள்.",
+    "way_3_title": "நிறுவனக் கூட்டாண்மை",
+    "way_3_desc": "சமூக அமைதி மற்றும் தொழில்முனைவு திட்டங்களை விரிவுபடுத்த ஓர் அரச சார்பற்ற நிறுவனம், பல்கலைக்கழகம் அல்லது அமைப்பாக இணையுங்கள்.",
+    "way_4_title": "எமது பணியைப் பரப்புங்கள்",
+    "way_4_desc": "எமது வெற்றிக் கதைகளைப் பகிருங்கள் மற்றும் சமூக ரீதியான அமைதி உருவாக்கத்திற்கு குரல் கொடுங்கள்.",
+
+    // Contact Page Texts
+    "contact_crumb": "தொடர்பு கொள்க",
+    "contact_title": "எங்களுடன் இணையுங்கள் — WhatsApp மூலமே மிக விரைவான வழி.",
+    "contact_lede": "தாமதங்கள் இல்லை. கீழேயுள்ள பொத்தானை அழுத்தி நேரடியாக WhatsApp மூலம் உரையாடுங்கள்.",
+    "contact_fastest_eyebrow": "விரைவான பதில்",
+    "contact_wa_title": "WhatsApp மூலம் உரையாடுங்கள்",
+    "contact_wa_desc": "தன்னார்வப் பணிகள், நிதியுதவிகள், அல்லது பொதுவான தகவல்களுக்கு எமது குழுவுடன் WhatsApp-இல் இணையுங்கள்.",
+    "contact_other_eyebrow": "பிற தொடர்பு வழிகள்",
+    "contact_phone_lbl": "தொலைபேசி",
+    "contact_email_lbl": "மின்னஞ்சல்",
+    "contact_based_lbl": "அமைவிடம்",
+    "contact_based_val": "இலங்கை",
+    "contact_hours_title": "அலுவலக நேரம்",
+    "contact_hours_desc": "திங்கள் – வெள்ளி, காலை 9:00 முதல் மாலை 5:00 வரை. பிற நேரங்களிலும் WhatsApp செய்திகள் வரவேற்கப்படுகின்றன.",
+
+    // Donate Page Texts
+    "donate_eyebrow": "முயற்சி · கற்றல் · வளர்ச்சி",
+    "donate_hero_title": "உங்கள் பங்களிப்பு ஒரு குழந்தையின் எதிர்காலத்தை ஒளிரச் செய்கிறது",
+    "donate_hero_p": "ஒவ்வொரு ரூபாயும் இலங்கையின் கிராமப்புற மீள்குடியேற்ற சமூகங்களில் உள்ள குழந்தைகளின் டிஜிட்டல் கல்வி, வாழ்க்கைத் திறன்கள் மற்றும் கற்றல் உபகரணங்களுக்கு நேரடியாகச் சென்றடைகிறது.",
+    "donate_form_title": "நன்கொடை வழங்கவும்",
+    "donate_form_subtitle": "உங்கள் நன்கொடைத் தொகையையும் விவரங்களையும் தெரிவு செய்யுங்கள். WhatsApp மூலம் எமது நிதிப் பிரிவு உங்களை நேரடியாகத் தொடர்பு கொள்ளும்.",
+    "donate_lbl_project": "திட்டத்தைத் தெரிவு செய்க",
+    "donate_lbl_amount": "நன்கொடைத் தொகை (LKR)",
+    "donate_lbl_name": "முழுப் பெயர்",
+    "donate_lbl_phone": "WhatsApp / தொலைபேசி எண்",
+    "donate_lbl_email": "மின்னஞ்சல் முகவரி (விருப்பத்தேர்வு)",
+    "donate_lbl_msg": "செய்தி / குறிப்பு (விருப்பத்தேர்வு)",
+    "donate_btn_submit": "WhatsApp மூலம் நன்கொடையை உறுதி செய்க",
+    "donate_secure_note": "உடனடி உறுதிப்படுத்தலுக்காக CPYE-இன் உத்தியோகபூர்வ WhatsApp (+94 75 850 7463) உடன் நேரடியாக இணைகிறது.",
+    "donate_sidebar_impact_title": "உங்கள் நன்கொடை எவ்வாறு உதவுகிறது",
+    "donate_impact_1": "1 மீள்குடியேற்றக் குழந்தைக்கு தேவையான பாடசாலை உபகரணங்களை வழங்குகிறது.",
+    "donate_impact_2": "1 மாத கால டிஜிட்டல் கல்வி மற்றும் கணினித் தட்டச்சுப் பயிற்சிக்கு உதவுகிறது.",
+    "donate_impact_3": "குழந்தைகளின் படைப்பாற்றல் மற்றும் வாழ்க்கைத் திறன் பயிற்சிப் பட்டறைகளுக்கு நிதியளிக்கிறது.",
+    "donate_impact_4": "கிராமப்புற கணினி மையங்களுக்கு மடிக்கணினிகள் மற்றும் இணைய வசதிகளை வழங்க உதவுகிறது.",
+    "donate_sidebar_bank_title": "நேரடி வங்கிப் பரிமாற்றம்",
+    "donate_bank_desc": "CPYE அமைப்பின் உத்தியோகபூர்வ வங்கிக் கணக்கிற்கும் நீங்கள் நேரடியாக நிதியளிக்கலாம்:",
+    "donate_bank_acc_name": "கணக்கின் பெயர்",
+    "donate_bank_name": "வங்கி",
+    "donate_bank_acc_no": "கணக்கு எண்",
+    "donate_bank_country": "நாடு",
+    "donate_bank_note": "பரிமாற்றத்தை முடித்த பிறகு, உத்தியோகபூர்வ ரசீதைப் பெற உங்கள் பற்றுச்சீட்டை WhatsApp அல்லது மின்னஞ்சல் வழியாக அனுப்பவும்.",
+    "donate_sidebar_help_title": "நன்கொடை பற்றிய சந்தேகங்களா?",
+    "donate_sidebar_help_desc": "எமது நிதி மற்றும் கூட்டாண்மை ஒருங்கிணைப்பாளருடன் WhatsApp-இல் நேரடியாகப் பேசுங்கள்.",
+    "donate_sidebar_help_btn": "WhatsApp-இல் உரையாட (+94 75 850 7463)",
+
+    // CTA & Footer
     "cta_eyebrow": "முயற்சி · கற்றல் · வளர்ச்சி",
     "cta_title": "உங்கள் முயற்சி ஒரு சமூகம் சுயமாக வளர உதவுகிறது.",
     "cta_desc": "நன்கொடையளிக்கவும், தன்னார்வலராக இணையவும் அல்லது எமது பங்காளராக இணையவும்.",
     "cta_btn_action": "நன்கொடை / தன்னார்வலர்",
     "cta_btn_wa": "WhatsApp",
-
-    // Footer
     "footer_desc": "கல்வி, புதுமை மற்றும் தொழில்முனைவு மூலம் உள்ளடக்கிய, சமூக ரீதியில் ஒருங்கிணைந்த சமுதாயத்தை உருவாக்குதல்.",
     "footer_nav_head": "வழிகாட்டல்",
     "footer_values_head": "விழுமியங்கள்",
@@ -219,7 +398,6 @@ const translations = {
     "mob_home": "முகப்பு",
     "mob_about": "பற்றி",
     "mob_projects": "திட்டங்கள்",
-    "mob_involved": "இணைவு",
     "mob_contact": "தொடர்பு"
   },
 
@@ -234,14 +412,13 @@ const translations = {
     "nav_contact": "අමතන්න",
     "nav_donate": "පරිත්‍යාග",
 
-    // Hero
+    // Home Hero & Slideshow
     "hero_eyebrow": "ශ්‍රී ලංකාව පදනම් කරගත් ලාභ නොලබන සංවිධානයකි",
     "hero_title": "සාමය ගොඩනැගෙන්නේ <em>දේශීයවය</em>, සවිබල ගැන්වූ සෑම තරුණයෙකු තුළින්මය.",
     "hero_lede": "ශ්‍රී ලංකාවේ පැවති දීර්ඝ ගැටුම් සමාජ, ආර්ථික හා පාරිසරික තත්ත්වයන්ට විශාල බලපෑමක් ඇති කළේය. ආනයනික විසඳුම් මගින් දේශීය ගැටලු සදාකාලිකව විසඳිය නොහැකි විය. එබැවින් අධ්‍යාපනය, සැලසුම් චින්තනය සහ ව්‍යවසායකත්වය හරහා ප්‍රජාවන්ට තම අභියෝග ජය ගැනීමට අපි මග පෙන්වන්නෙමු.",
     "hero_btn_involved": "සම්බන්ධ වන්න",
     "hero_btn_story": "අපගේ ගමන",
 
-    // Slideshow
     "slide_1_badge": "නැවත පදිංචි කිරීමේ ව්‍යාපෘතිය",
     "slide_1_caption": "නැවත පදිංචි කළ ප්‍රජාවන්හි දරුවන් සවිබල ගැන්වීම",
     "slide_2_badge": "ඩිජිටල් අධ්‍යාපනය",
@@ -289,6 +466,8 @@ const translations = {
     "val_5_desc": "ප්‍රජාව වෙනුවෙන් නොව, ප්‍රජාව සමගම වැඩසටහන් ගොඩනැගීම.",
 
     // Key Project Tracks
+    "projects_eyebrow": "ක්‍රියාකාරකම්",
+    "projects_title": "අපගේ ප්‍රධාන ව්‍යාපෘති.",
     "proj_1_tag": "නැවත පදිංචි කිරීම",
     "proj_1_title": "නැවත පදිංචි කිරීමේ ව්‍යාපෘතිය",
     "proj_1_desc": "ග්‍රාමීය හා නැවත පදිංචි කළ ප්‍රජාවන්හි දරුවන් සහ පවුල් සඳහා අධ්‍යාපනය සහ ප්‍රජා සහයෝගය ලබාදීම.",
@@ -310,14 +489,105 @@ const translations = {
     "gallery_item_5": "පරිගණක යතුරුලියන ප්‍රායෝගික පුහුණුව",
     "gallery_item_6": "ප්‍රජා තරුණ සහ ළමා සුහද හමුව",
 
-    // CTA
+    // Projects Page Detailed Texts
+    "projects_page_crumb": "අපගේ ව්‍යාපෘති",
+    "projects_page_title": "දැනට ක්‍රියාත්මක ප්‍රධාන ව්‍යාපෘති",
+    "projects_page_lede": "සෑම ව්‍යාපෘතියක්ම ප්‍රජාවන්, පාසල්, ග්‍රාමීය නායකයින් සහ තරුණ ජාලයන් සමග එක්ව අපගේ මූලික වටිනාකම් මත පදනම්ව ක්‍රියාත්මක වේ.",
+    "flagship_tag_1": "ප්‍රමුඛ මුලපිරීම (Flagship Initiative)",
+    "flagship_title_1": "අපගේ නැවත පදිංචි කිරීමේ ව්‍යාපෘතිය",
+    "flagship_p1_1": "අපගේ නැවත පදිංචි කිරීමේ ව්‍යාපෘතිය මගින් ශ්‍රී ලංකාව පුරා ග්‍රාමීය හා නැවත පදිංචි කළ ප්‍රජාවන්හි ජීවත්වන අවදානමට ලක්විය හැකි දරුවන්ට සහ පවුල්වලට සහාය දක්වයි. ආර්ථික, අධ්‍යාපනික හා සමාජීය අභියෝගවලට මුහුණ දෙන දරුවන්ට වඩා හොඳ අවස්ථා නිර්මාණය කිරීම මෙහි අරමුණයි.",
+    "flagship_p2_1": "අධ්‍යාපනය, ජීවන කුසලතා සංවර්ධනය, ඩිජිටල් සාක්ෂරතාව, නායකත්ව ක්‍රියාකාරකම් සහ ප්‍රජා පාදක සහයෝගය හරහා දරුවන්ට ආත්ම විශ්වාසය ගොඩනැගීමට සහ යහපත් අනාගතයක් නිර්මාණය කිරීමට අපි සහාය වන්නෙමු.",
+    "flagship_p3_1": "වඩාත්ම අවශ්‍යතා සහිත දරුවන් හඳුනාගෙන ඔවුන්ට ඉගෙනීමට, වර්ධනය වීමට සහ ඔවුන්ගේ පූර්ණ හැකියාවන් කරා ළඟා වීමට අවස්ථා ලබා දීම සඳහා අපි ප්‍රාදේශීය ප්‍රජාවන්, පාසල්, ස්වේච්ඡා සේවකයින් සහ හවුල්කරුවන් සමග සමීපව කටයුතු කරන්නෙමු.",
+    "flagship_quote_1": "“අපගේ ඉලක්කය සරලයි: අවදානමට ලක්විය හැකි දරුවන් අද සවිබල ගැන්වීම, එවිට ඔවුන් හෙට තම ප්‍රජාවේ විශ්වාසවන්ත හා ක්‍රියාකාරී සාමාජිකයන් බවට පත්වනු ඇත.”",
+    "flagship_pill_1_1": "අධ්‍යාපනික සහයෝගය",
+    "flagship_pill_1_2": "ජීවන කුසලතා සහ නායකත්වය",
+    "flagship_pill_1_3": "ඩිජිටල් සාක්ෂරතාව",
+    "flagship_pill_1_4": "ප්‍රජා රැකවරණය",
+
+    "flagship_tag_2": "ඩිජිටල් සවිබල ගැන්වීමේ අංශය",
+    "flagship_title_2": "අනාගතය ඔවුන්ගේ අතේ – තොරතුරු තාක්ෂණ පුහුණුව",
+    "flagship_p1_2": "අනාගතය ඔවුන්ගේ අතේ යනු අඩු පහසුකම් සහිත දරුවන්ට තොරතුරු තාක්ෂණ අධ්‍යාපනය සහ ඩිජිටල් කුසලතා ලබා දීම මගින් ඔවුන් සවිබල ගැන්වීම සඳහා කැපවූ ව්‍යාපෘතියකි.",
+    "flagship_p2_2": "ග්‍රාමීය ප්‍රජාවන්හි බොහෝ දරුවන්ට පරිගණක සහ ඩිජිටල් ඉගෙනුම් අවස්ථා සීමිතය. මෙම ව්‍යාපෘතිය හරහා ඩිජිටල් පරතරය අඩු කර දරුවන්ට දැනුම සහ විශ්වාසය ලබා දීම අපගේ අරමුණයි.",
+    "flagship_p3_2": "දරුවන්ට පරිගණක මූලික කරුණු, මයික්‍රොසොෆ්ට් ඔෆිස් (Microsoft Office), අන්තර්ජාල කුසලතා, ඩිජිටල් සන්නිවේදනය සහ අන්තර්ජාල ආරක්ෂාව පිළිබඳ ප්‍රායෝගික පුහුණුව ලැබේ. මෙම කුසලතා ඔවුන්ගේ අනාගත රැකියා අවස්ථා සඳහා මහෝපකාරී වේ.",
+    "flagship_p4_2": "දරුවෙකුගේ පසුබිම හෝ මූල්‍ය තත්ත්වය ඔවුන්ගේ අනාගතය සීමා නොකළ යුතු බව සහතික කිරීම අපගේ දැක්මයි.",
+    "flagship_quote_2": "“අද දරුවෙකුට නිවැරදි කුසලතා ලබා දෙන්න, ඔවුන්ට තම අනාගතය තමන් විසින්ම හැඩගස්වා ගැනීමට බලය ලැබෙනු ඇත.”",
+    "flagship_pill_2_1": "පරිගණක මූලික කරුණු",
+    "flagship_pill_2_2": "මයික්‍රොසොෆ්ට් ඔෆිස් (Office)",
+    "flagship_pill_2_3": "අන්තර්ජාල ආරක්ෂාව",
+    "flagship_pill_2_4": "අනාගත රැකියා සූදානම",
+
+    // About Page Texts
+    "about_crumb": "අප ගැන",
+    "about_title": "මූලික වටිනාකම් 5ක් මත ගොඩනැගී, ප්‍රජාවන් විසින් මෙහෙයවනු ලබයි.",
+    "about_lede": "සාම ගොඩනැගීමේ සහ තරුණ සවිබල ගැන්වීමේ මධ්‍යස්ථානය යනු වසර 25ක සිවිල් ගැටුමේ සමාජ, ආර්ථික සහ පාරිසරික අභියෝගවලට මුහුණ දෙන ශ්‍රී ලාංකික ලාභ නොලබන සංවිධානයකි.",
+    "about_work_eyebrow": "ක්‍රියාකාරී ක්ෂේත්‍ර බලපෑම",
+    "about_work_title": "අපගේ ක්ෂේත්‍ර මෙහෙවර",
+    "about_work_desc": "ශ්‍රී ලංකාව පුරා ප්‍රාදේශීය ප්‍රජා නිලධාරීන්, තරුණ කණ්ඩායම් සහ ග්‍රාමීය නායකයින් සමග එක්ව අර්ථවත් වෙනසක් ඇති කිරීම.",
+
+    // Get Involved Page Texts
+    "involved_crumb": "සම්බන්ධ වන්න",
+    "involved_title": "ශ්‍රී ලාංකික තරුණයින් සමග එක්වීමට ක්‍රම 4ක්.",
+    "involved_lede": "ඔබගේ කාලය, දැනුම, අරමුදල් හෝ හවුල්කාරිත්වය හරහා ප්‍රජා සංවර්ධනයට සෘජුව දායක විය හැක.",
+    "way_1_title": "ස්වේච්ඡා සේවය",
+    "way_1_desc": "ඉගැන්වීම්, තරුණ ව්‍යවසායකයින්ට මගපෙන්වීම හෝ නිර්මාණාත්මක සැලසුම් වැඩමුළු මෙහෙයවීම.",
+    "way_2_title": "ව්‍යාපෘතියකට අනුග්‍රහය දැක්වීම",
+    "way_2_desc": "නැවත පදිංචි කළ දරුවන්ගේ ව්‍යාපෘතිය, පාසල් පරිගණක උපකරණ හෝ ඩිජිටල් සාක්ෂරතා පන්ති සඳහා අරමුදල් සැපයීම.",
+    "way_3_title": "ආයතනික හවුල්කාරිත්වය",
+    "way_3_desc": "ප්‍රජා සාමය සහ ව්‍යවසායකත්ව වැඩසටහන් පුළුල් කිරීම සඳහා රාජ්‍ය නොවන සංවිධානයක්, විශ්ව විද්‍යාලයක් හෝ ආයතනයක් ලෙස එක්වන්න.",
+    "way_4_title": "පණිවිඩය බෙදාහරින්න",
+    "way_4_desc": "අපගේ සාර්ථක කතා බෙදාගන්න සහ ප්‍රජා මූලික සාම ගොඩනැගීම වෙනුවෙන් පෙනී සිටින්න.",
+
+    // Contact Page Texts
+    "contact_crumb": "අමතන්න",
+    "contact_title": "අප හා එක්වන්න — WhatsApp මගින් කඩිනම් ප්‍රතිචාර.",
+    "contact_lede": "ප්‍රමාදයන් නැත. පහත බොත්තම ක්ලික් කර WhatsApp හරහා සෘජුවම අප සමග සම්බන්ධ වන්න.",
+    "contact_fastest_eyebrow": "ඉක්මන් ප්‍රතිචාර",
+    "contact_wa_title": "WhatsApp මගින් සම්බන්ධ වන්න",
+    "contact_wa_desc": "ස්වේච්ඡා සේවය, හවුල්කාරිත්වයන්, හෝ සාමාන්‍ය තොරතුරු සඳහා WhatsApp හරහා අප කණ්ඩායම අමතන්න.",
+    "contact_other_eyebrow": "වෙනත් සන්නිවේදන මාර්ග",
+    "contact_phone_lbl": "දුරකථන",
+    "contact_email_lbl": "විද්‍යුත් තැපෑල",
+    "contact_based_lbl": "ස්ථානය",
+    "contact_based_val": "ශ්‍රී ලංකාව",
+    "contact_hours_title": "කාර්යාල වේලාවන්",
+    "contact_hours_desc": "සඳුදා – සිකුරාදා, පෙ.ව. 9:00 සිට ප.ව. 5:00 දක්වා. වෙනත් වේලාවන්හිදීද WhatsApp පණිවිඩ එවීමට හැක.",
+
+    // Donate Page Texts
+    "donate_eyebrow": "උත්සාහය · ඉගෙනීම · වර්ධනය",
+    "donate_hero_title": "ඔබගේ දායකත්වය දරුවෙකුගේ අනාගතය ආලෝකවත් කරයි",
+    "donate_hero_p": "සෑම රුපියලක්ම ශ්‍රී ලංකාවේ ග්‍රාමීය නැවත පදිංචි කළ ප්‍රජාවන්හි දරුවන්ගේ ඩිජිටල් අධ්‍යාපනය, ජීවන කුසලතා සහ අධ්‍යාපනික ද්‍රව්‍ය සඳහා සෘජුවම යෙදවේ.",
+    "donate_form_title": "පරිත්‍යාගයක් කරන්න",
+    "donate_form_subtitle": "ඔබගේ පරිත්‍යාග මුදල සහ විස්තර තෝරන්න. WhatsApp හරහා අපගේ මූල්‍ය අංශය ඔබව සෘජුවම සම්බන්ධ කර ගනු ඇත.",
+    "donate_lbl_project": "ව්‍යාපෘතිය තෝරන්න",
+    "donate_lbl_amount": "පරිත්‍යාග මුදල (LKR)",
+    "donate_lbl_name": "සම්පූර්ණ නම",
+    "donate_lbl_phone": "WhatsApp / දුරකථන අංකය",
+    "donate_lbl_email": "විද්‍යුත් තැපෑල (විකල්ප)",
+    "donate_lbl_msg": "පණිවිඩය / සටහන (විකල්ප)",
+    "donate_btn_submit": "WhatsApp මගින් පරිත්‍යාගය තහවුරු කරන්න",
+    "donate_secure_note": "ක්ෂණික තහවුරු කිරීම සඳහා CPYE නිල WhatsApp (+94 75 850 7463) වෙත සෘජුව සම්බන්ධ වේ.",
+    "donate_sidebar_impact_title": "ඔබගේ පරිත්‍යාගය උපකාරී වන ආකාරය",
+    "donate_impact_1": "නැවත පදිංචි කළ එක් දරුවෙකුට අවශ්‍ය පාසල් ලිපිද්‍රව්‍ය ලබා දෙයි.",
+    "donate_impact_2": "මාස 1ක ඩිජිටල් සාක්ෂරතා සහ පරිගණක පුහුණුව සඳහා සහාය වේ.",
+    "donate_impact_3": "දරුවන්ගේ නිර්මාණශීලී ජීවන කුසලතා වැඩමුළු සඳහා අරමුදල් සපයයි.",
+    "donate_impact_4": "ග්‍රාමීය පරිගණක මධ්‍යස්ථාන සඳහා ලැප්ටොප් සහ අන්තර්ජාල පහසුකම් ලබා දීමට උපකාරී වේ.",
+    "donate_sidebar_bank_title": "සෘජු බැංකු තැන්පතු",
+    "donate_bank_desc": "CPYE නිල ලාභ නොලබන බැංකු ගිණුමටද ඔබට සෘජුවම මුදල් බැර කළ හැක:",
+    "donate_bank_acc_name": "ගිණුමේ නම",
+    "donate_bank_name": "බැංකුව",
+    "donate_bank_acc_no": "ගිණුම් අංකය",
+    "donate_bank_country": "රට",
+    "donate_bank_note": "තැන්පතුව සම්පූර්ණ කිරීමෙන් පසු, නිල රිසිට්පත ලබා ගැනීම සඳහා ඔබගේ ලදුපත WhatsApp හෝ විද්‍යුත් තැපෑල මගින් එවන්න.",
+    "donate_sidebar_help_title": "පරිත්‍යාග පිළිබඳ ගැටලු?",
+    "donate_sidebar_help_desc": "අපගේ මූල්‍ය සම්බන්ධීකාරක සමග WhatsApp මගින් සෘජුව කතා කරන්න.",
+    "donate_sidebar_help_btn": "WhatsApp මගින් අමතන්න (+94 75 850 7463)",
+
+    // CTA & Footer
     "cta_eyebrow": "උත්සාහය · ඉගෙනීම · වර්ධනය",
     "cta_title": "ඔබගේ දායකත්වය ප්‍රජාවකට ස්වයංව නැගී සිටීමට මග පාදයි.",
     "cta_desc": "පරිත්‍යාග කරන්න, ස්වේච්ඡාවෙන් එක්වන්න හෝ අප සමග හවුල්කාරිත්වයකට එළඹෙන්න.",
     "cta_btn_action": "පරිත්‍යාග / ස්වේච්ඡා සේවය",
     "cta_btn_wa": "WhatsApp",
-
-    // Footer
     "footer_desc": "අධ්‍යාපනය, නවෝත්පාදනය සහ ව්‍යවසායකත්වය හරහා සමාජ ඒකාබද්ධතාවය ගොඩනැගීම.",
     "footer_nav_head": "පිටු",
     "footer_values_head": "වටිනාකම්",
@@ -329,7 +599,6 @@ const translations = {
     "mob_home": "මුල් පිටුව",
     "mob_about": "අප ගැන",
     "mob_projects": "ව්‍යාපෘති",
-    "mob_involved": "එක්වන්න",
     "mob_contact": "අමතන්න"
   }
 };

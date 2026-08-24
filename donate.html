@@ -54,9 +54,9 @@
 
 <section class="donate-hero">
   <div class="wrap">
-    <span class="eyebrow" style="color:var(--clay);">Effort · Learn · Grow</span>
-    <h1>Your Contribution Powers a Child's Future</h1>
-    <p>Every rupee directly supports digital education, life-skills, and essential learning materials for children in rural resettlement communities across Sri Lanka.</p>
+    <span class="eyebrow" style="color:var(--clay);" data-i18n="donate_eyebrow">Effort · Learn · Grow</span>
+    <h1 data-i18n="donate_hero_title">Your Contribution Powers a Child's Future</h1>
+    <p data-i18n="donate_hero_p">Every rupee directly supports digital education, life-skills, and essential learning materials for children in rural resettlement communities across Sri Lanka.</p>
   </div>
 </section>
 
@@ -64,17 +64,17 @@
   <div class="wrap">
     <div class="donate-layout">
       
-      <!-- Main Donation Form Card (Always visible on all screens) -->
+      <!-- Main Donation Form Card -->
       <div class="donate-card">
         <div class="donate-card-head">
-          <h2>Make a Contribution</h2>
-          <p>Select your contribution amount and details. We will connect you directly with our donation desk on WhatsApp.</p>
+          <h2 data-i18n="donate_form_title">Make a Contribution</h2>
+          <p data-i18n="donate_form_subtitle">Select your contribution amount and details. We will connect you directly with our donation desk on WhatsApp.</p>
         </div>
 
         <form id="pageDonateForm">
           <!-- Project Track -->
           <div class="form-group">
-            <label for="pDonateProject">Select Project / Track <span>*</span></label>
+            <label for="pDonateProject"><span data-i18n="donate_lbl_project">Select Project / Track</span> <span>*</span></label>
             <select id="pDonateProject" class="form-control" required>
               <option value="Our Resettlement Project">Our Resettlement Project (Vulnerable Children &amp; Families)</option>
               <option value="Future in Their Hands – IT Skills">Future in Their Hands – IT Skills &amp; Digital Literacy</option>
@@ -86,7 +86,7 @@
 
           <!-- Amount Selection -->
           <div class="form-group">
-            <label>Select Contribution Amount (LKR) <span>*</span></label>
+            <label><span data-i18n="donate_lbl_amount">Select Contribution Amount (LKR)</span> <span>*</span></label>
             <div class="amount-presets">
               <button type="button" class="preset-btn" data-val="2500">LKR 2,500</button>
               <button type="button" class="preset-btn active" data-val="5000">LKR 5,000</button>
@@ -101,37 +101,37 @@
 
           <!-- Name -->
           <div class="form-group">
-            <label for="pDonateName">Your Full Name <span>*</span></label>
+            <label for="pDonateName"><span data-i18n="donate_lbl_name">Your Full Name</span> <span>*</span></label>
             <input type="text" id="pDonateName" class="form-control" placeholder="e.g. Asvini / John Doe" required>
           </div>
 
           <!-- Phone/WhatsApp -->
           <div class="form-group">
-            <label for="pDonatePhone">WhatsApp / Phone Number <span>*</span></label>
+            <label for="pDonatePhone"><span data-i18n="donate_lbl_phone">WhatsApp / Phone Number</span> <span>*</span></label>
             <input type="tel" id="pDonatePhone" class="form-control" placeholder="e.g. +94 77 123 4567" required>
           </div>
 
           <!-- Email -->
           <div class="form-group">
-            <label for="pDonateEmail">Email Address (Optional)</label>
+            <label for="pDonateEmail" data-i18n="donate_lbl_email">Email Address (Optional)</label>
             <input type="email" id="pDonateEmail" class="form-control" placeholder="e.g. yourname@gmail.com">
           </div>
 
           <!-- Message -->
           <div class="form-group">
-            <label for="pDonateMessage">Message / Dedication (Optional)</label>
+            <label for="pDonateMessage" data-i18n="donate_lbl_msg">Message / Dedication (Optional)</label>
             <textarea id="pDonateMessage" class="form-control" rows="3" placeholder="Any specific instructions, dedication, or words of encouragement..."></textarea>
           </div>
 
           <!-- Submit via WhatsApp -->
           <button type="submit" class="btn-donate-wa">
             <svg viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.27 4.82L2 22l5.42-1.36a9.86 9.86 0 004.62 1.17h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.06c-.24.68-1.4 1.31-1.94 1.36-.5.05-1.05.24-3.53-.74-2.98-1.18-4.9-4.2-5.05-4.4-.15-.2-1.2-1.6-1.2-3.05 0-1.45.76-2.16 1.03-2.46.27-.3.59-.37.79-.37h.57c.18 0 .42-.02.66.5.24.53.83 1.83.9 1.96.07.13.12.28.02.46-.1.18-.15.28-.3.44-.15.15-.31.34-.44.46-.15.14-.3.3-.13.6.17.3.76 1.25 1.63 2.02 1.12 1 2.06 1.31 2.36 1.46.3.15.48.13.65-.08.18-.2.75-.87.95-1.17.2-.3.4-.25.66-.15.27.1 1.72.81 2.02.96.3.15.5.22.57.35.08.13.08.73-.16 1.41z"/></svg>
-            Complete Donation via WhatsApp
+            <span data-i18n="donate_btn_submit">Complete Donation via WhatsApp</span>
           </button>
 
           <div class="form-secure-note">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-            Direct connection to CPYE’s verified WhatsApp (+94 75 850 7463) for instant confirmation.
+            <span data-i18n="donate_secure_note">Direct connection to CPYE’s verified WhatsApp (+94 75 850 7463) for instant confirmation.</span>
           </div>
         </form>
       </div>
@@ -143,24 +143,24 @@
         <div class="sidebar-card">
           <h3>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            How Your Donation Helps
+            <span data-i18n="donate_sidebar_impact_title">How Your Donation Helps</span>
           </h3>
           <div class="impact-list">
             <div class="impact-item">
               <span class="impact-val">LKR 2,500</span>
-              <p class="impact-desc">Provides essential school stationery and learning supplies for 1 resettlement child.</p>
+              <p class="impact-desc" data-i18n="donate_impact_1">Provides essential school stationery and learning supplies for 1 resettlement child.</p>
             </div>
             <div class="impact-item">
               <span class="impact-val">LKR 5,000</span>
-              <p class="impact-desc">Supports 1 month of digital literacy &amp; typing training in our rural IT hub.</p>
+              <p class="impact-desc" data-i18n="donate_impact_2">Supports 1 month of digital literacy &amp; typing training in our rural IT hub.</p>
             </div>
             <div class="impact-item">
               <span class="impact-val">LKR 10,000</span>
-              <p class="impact-desc">Funds creative life-skills and confidence-building workshops for a group of children.</p>
+              <p class="impact-desc" data-i18n="donate_impact_3">Funds creative life-skills and confidence-building workshops for a group of children.</p>
             </div>
             <div class="impact-item">
               <span class="impact-val">LKR 25,000</span>
-              <p class="impact-desc">Helps equip community computer centers with laptops, accessories and internet access.</p>
+              <p class="impact-desc" data-i18n="donate_impact_4">Helps equip community computer centers with laptops, accessories and internet access.</p>
             </div>
           </div>
         </div>
@@ -169,38 +169,38 @@
         <div class="sidebar-card">
           <h3>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h1M9 13h1M14 9h1M14 13h1"/></svg>
-            Direct Bank Transfer
+            <span data-i18n="donate_sidebar_bank_title">Direct Bank Transfer</span>
           </h3>
-          <p style="font-size:13.5px;color:var(--ink-soft);margin-bottom:12px;">You can also make a direct deposit or online transfer to CPYE’s official non-profit account:</p>
+          <p style="font-size:13.5px;color:var(--ink-soft);margin-bottom:12px;" data-i18n="donate_bank_desc">You can also make a direct deposit or online transfer to CPYE’s official non-profit account:</p>
           <table class="bank-info-table">
             <tr>
-              <td>Account Name</td>
+              <td data-i18n="donate_bank_acc_name">Account Name</td>
               <td>Centre for Peace Building and Youth Empowerment</td>
             </tr>
             <tr>
-              <td>Bank</td>
+              <td data-i18n="donate_bank_name">Bank</td>
               <td>Bank of Ceylon / Commercial Bank</td>
             </tr>
             <tr>
-              <td>Account No</td>
+              <td data-i18n="donate_bank_acc_no">Account No</td>
               <td>Contact on WhatsApp</td>
             </tr>
             <tr>
-              <td>Country</td>
+              <td data-i18n="donate_bank_country">Country</td>
               <td>Sri Lanka</td>
             </tr>
           </table>
-          <p style="font-size:12px;color:var(--ink-soft);margin-top:14px;">After completing a transfer, please send your slip/receipt to <strong>cpye.org.srilanka@gmail.com</strong> or WhatsApp for your official receipt.</p>
+          <p style="font-size:12px;color:var(--ink-soft);margin-top:14px;" data-i18n="donate_bank_note">After completing a transfer, please send your slip/receipt to <strong>cpye.org.srilanka@gmail.com</strong> or WhatsApp for your official receipt.</p>
         </div>
 
         <!-- WhatsApp Quick Support -->
         <div class="sidebar-card" style="background:var(--paper-deep);">
           <h3>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
-            Questions about Donating?
+            <span data-i18n="donate_sidebar_help_title">Questions about Donating?</span>
           </h3>
-          <p style="font-size:14px;color:var(--ink-soft);margin-bottom:16px;">Speak directly with our finance and partnership coordinator on WhatsApp.</p>
-          <a href="https://wa.me/94758507463?text=Hi%21%20I%20have%20a%20question%20about%20donating%20to%20CPYE." target="_blank" rel="noopener" class="btn btn-outline" style="background:#fff;">
+          <p style="font-size:14px;color:var(--ink-soft);margin-bottom:16px;" data-i18n="donate_sidebar_help_desc">Speak directly with our finance and partnership coordinator on WhatsApp.</p>
+          <a href="https://wa.me/94758507463?text=Hi%21%20I%20have%20a%20question%20about%20donating%20to%20CPYE." target="_blank" rel="noopener" class="btn btn-outline" style="background:#fff;" data-i18n="donate_sidebar_help_btn">
             Chat on WhatsApp (+94 75 850 7463)
           </a>
         </div>
