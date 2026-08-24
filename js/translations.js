@@ -1,8 +1,8 @@
 const translations = {
   en: {
-    // Navigation
+    // Brand & Navigation
     "brand_title": "Centre for Peace Building",
-    "brand_subtitle": "Youth Empowerment",
+    "brand_subtitle": "& Youth Empowerment",
     "nav_home": "Home",
     "nav_about": "About Us",
     "nav_projects": "Our Projects",
@@ -10,7 +10,7 @@ const translations = {
     "nav_contact": "Contact Us",
     "nav_donate": "Donate",
 
-    // Home Hero & Slideshow
+    // Home Page
     "hero_eyebrow": "A non-profit based in Sri Lanka",
     "hero_title": "Peace is built <em>locally</em>, one empowered youth at a time.",
     "hero_lede": "A quarter century of civil conflict reshaped Sri Lanka's social, economic and environmental fabric. Imported answers couldn't fix local problems for good — so we work with communities to solve their own challenges, through education, design thinking and enterprise.",
@@ -28,7 +28,6 @@ const translations = {
     "slide_5_badge": "Community Support",
     "slide_5_caption": "Creating Safe Spaces for Rural Children to Learn & Grow",
 
-    // Stats
     "stat_1_val": "5",
     "stat_1_lbl": "Core values guiding every programme",
     "stat_2_val": "3",
@@ -38,7 +37,6 @@ const translations = {
     "stat_4_val": "SDGs",
     "stat_4_lbl": "Anchored to sustainable development goals",
 
-    // Mission & Vision
     "mv_eyebrow": "Why we exist",
     "mv_title": "Local answers to local challenges.",
     "mission_eyebrow": "Our mission",
@@ -48,7 +46,6 @@ const translations = {
     "vision_title": "Communities that stand on their own.",
     "vision_text": "To empower underserved communities through creative community development programs that promote self-sufficiency and enhance quality of life.",
 
-    // Core Values
     "values_eyebrow": "What holds us together",
     "values_title": "Five values. Five figures reaching for the same peace.",
     "values_desc": "Our mark shows five people, hands raised together toward one peace sign — that's how we work. Each colour carries one of our core values.",
@@ -63,7 +60,6 @@ const translations = {
     "val_5_title": "Participation",
     "val_5_desc": "Programmes built with people, not for them.",
 
-    // Key Project Tracks
     "projects_eyebrow": "Where the work happens",
     "projects_title": "Our key ongoing projects.",
     "proj_1_tag": "Resettlement",
@@ -77,7 +73,6 @@ const translations = {
     "proj_3_desc": "Working alongside RDS and WRDS societies to rebuild social cohesion and develop grassroots youth leaders.",
     "proj_see_all": "See all projects & details",
 
-    // Gallery
     "gallery_eyebrow": "Field Impact",
     "gallery_title": "Moments of change in our communities.",
     "gallery_item_1": "Community IT Centre Ribbon Cutting",
@@ -87,7 +82,38 @@ const translations = {
     "gallery_item_5": "Hands-on Laptop Typing Training",
     "gallery_item_6": "Community Partnership Gathering",
 
-    // Projects Page Detailed Texts
+    // About Us Page
+    "about_crumb": "About Us",
+    "about_title": "Who we are",
+    "about_lede": "A non-profit organisation striving to build an inclusive and socially cohesive society, a transformational education system, and innovative digital opportunities for vulnerable children and communities.",
+    "about_what_eyebrow": "What we do",
+    "about_what_title": "Local answers to a local history.",
+    "about_what_desc": "A quarter of a century of civil conflict in Sri Lanka had a huge influence on the country's socio-economic and environmental conditions. International aid was helpful, but imported answers were unable to fix core local problems on a long-term basis. So we were determined to make it possible for local people to tackle their own challenges — on their own terms.",
+    "about_who_eyebrow": "Who we are",
+    "about_who_title": "Education, innovation, enterprise.",
+    "about_who_desc": "We are a non-profit organisation that strives to build an inclusive and socially cohesive society, a transformational education system, and innovative digital initiatives — putting young people and vulnerable children in the driver's seat.",
+    "about_pillars_eyebrow": "How we work",
+    "about_pillars_title": "Three pillars of challenge-based learning.",
+    "pillar_1_tag": "Education",
+    "pillar_1_title": "A transformational education system",
+    "pillar_1_desc": "We redesign how young people learn — replacing rote instruction with real, community-rooted problems that build critical thinking and design skills.",
+    "pillar_2_tag": "Innovation",
+    "pillar_2_title": "Digital skills & design thinking",
+    "pillar_2_desc": "We bring practical computer literacy and human-centred design methods into rural settings, bridging the digital divide for vulnerable children.",
+    "pillar_3_tag": "Enterprise",
+    "pillar_3_title": "Community empowerment & resilience",
+    "pillar_3_desc": "We help youth-led ventures move from idea to action, anchoring economic and social resilience directly inside the communities we serve.",
+    "about_work_eyebrow": "Impact in the field",
+    "about_work_title": "Our Work in Action",
+    "about_work_desc": "Engaging closely with local community officers, youth groups, and village leaders across Sri Lanka to drive meaningful change.",
+    "work_1_title": "Community Leadership Circles",
+    "work_1_desc": "Collaborating directly with Grama Niladhari, Rural Development Societies (RDS) and Women's Rural Development Societies (WRDS).",
+    "work_2_title": "Resettlement School Support",
+    "work_2_desc": "Delivering essential education materials, leadership camps, and digital learning opportunities for rural children.",
+    "work_3_title": "Youth Empowerment & Dialogue",
+    "work_3_desc": "Fostering inter-community dialogue, creative problem solving, and entrepreneurship opportunities across Sri Lanka.",
+
+    // Projects Page
     "projects_page_crumb": "Our Projects",
     "projects_page_title": "Current ongoing initiatives",
     "projects_page_lede": "Every project traces back to our core values — designed directly with communities and delivered alongside schools, village leaders, RDS/WRDS societies, and youth networks.",
@@ -101,7 +127,6 @@ const translations = {
     "flagship_pill_1_2": "Life-Skills & Leadership",
     "flagship_pill_1_3": "Digital Literacy",
     "flagship_pill_1_4": "Community Care",
-
     "flagship_tag_2": "Digital Empowerment Track",
     "flagship_title_2": "Future in Their Hands – IT Skills for a Brighter Future",
     "flagship_p1_2": "Future in Their Hands is a project dedicated to empowering vulnerable children by providing them with access to IT education and digital skills.",
@@ -113,29 +138,34 @@ const translations = {
     "flagship_pill_2_2": "Microsoft Office",
     "flagship_pill_2_3": "Internet & Digital Safety",
     "flagship_pill_2_4": "Future Employment Readiness",
+    "proj_track_1_pill": "Track 01 · Education",
+    "proj_track_1_title": "Challenge-Based Learning & Creative Workshops",
+    "proj_track_1_desc": "Children in rural schools identify local issues — clean water, waste, school gardens — and build hands-on prototypes. We pair design-thinking modules with local educators.",
+    "proj_track_2_pill": "Track 02 · Peacebuilding",
+    "proj_track_2_title": "Inter-Community Dialogue & Reconciliation",
+    "proj_track_2_desc": "Facilitated dialogue circles across ethnic and religious lines, run with Rural Development Societies (RDS) and Women's Rural Development Societies (WRDS).",
+    "proj_track_3_pill": "Track 03 · Enterprise",
+    "proj_track_3_title": "Youth Social Enterprise Incubator",
+    "proj_track_3_desc": "Seed micro-grants, business mentoring and market access for rural youth running agro-processing, eco-tourism, and sustainable crafts ventures.",
 
-    // About Page Texts
-    "about_crumb": "About Us",
-    "about_title": "Built on five values, powered by communities.",
-    "about_lede": "The Centre for Peace Building and Youth Empowerment is a Sri Lankan non-profit that addresses the deep-rooted social, economic and environmental consequences of 25 years of civil conflict.",
-    "about_work_eyebrow": "Impact in the field",
-    "about_work_title": "Our Work in Action",
-    "about_work_desc": "Engaging closely with local community officers, youth groups, and village leaders across Sri Lanka to drive meaningful change.",
-
-    // Get Involved Page Texts
+    // Get Involved Page
     "involved_crumb": "Get Involved",
     "involved_title": "Four ways to stand with Sri Lanka’s youth.",
     "involved_lede": "Whether you bring time, expertise, funding or partnership — there is a clear and direct path for you to make an impact.",
     "way_1_title": "Volunteer Your Skills",
     "way_1_desc": "Teach a class, mentor a youth entrepreneur, support a community project, or help facilitate design thinking workshops in rural communities.",
+    "way_1_btn": "Volunteer with us",
     "way_2_title": "Sponsor a Project",
     "way_2_desc": "Fund a specific track — such as the Resettlement Children Project, IT equipment for a village school, or digital literacy classes.",
+    "way_2_btn": "Sponsor a track",
     "way_3_title": "Institutional Partnership",
     "way_3_desc": "Partner with CPYE as an NGO, university, funding body or government agency to scale community-driven peace and enterprise programmes.",
+    "way_3_btn": "Propose a partnership",
     "way_4_title": "Spread the Word",
     "way_4_desc": "Share our stories, connect us with networks, and advocate for community-led peacebuilding and youth empowerment in Sri Lanka.",
+    "way_4_btn": "Connect with us",
 
-    // Contact Page Texts
+    // Contact Page
     "contact_crumb": "Contact Us",
     "contact_title": "Let's talk — WhatsApp is the fastest way.",
     "contact_lede": "No complicated forms or delays. Tap the button below and we'll pick up the conversation directly on WhatsApp.",
@@ -147,10 +177,11 @@ const translations = {
     "contact_email_lbl": "Email",
     "contact_based_lbl": "Based in",
     "contact_based_val": "Sri Lanka",
+    "contact_email_btn": "Send an email",
     "contact_hours_title": "Office hours",
-    "contact_hours_desc": "Monday – Friday, 9:00 AM – 5:00 PM (Sri Lanka Standard Time). Outside these hours, WhatsApp messages are always welcome.",
+    "contact_hours_desc": "Monday – Friday, 9:00 AM – 5:00 PM (Sri Lanka Standard Time). Outside these hours, WhatsApp messages are always welcome — we'll respond as soon as we're back online.",
 
-    // Donate Page Texts
+    // Donate Page
     "donate_eyebrow": "Effort · Learn · Grow",
     "donate_hero_title": "Your Contribution Powers a Child's Future",
     "donate_hero_p": "Every rupee directly supports digital education, life-skills, and essential learning materials for children in rural resettlement communities across Sri Lanka.",
@@ -179,8 +210,18 @@ const translations = {
     "donate_sidebar_help_title": "Questions about Donating?",
     "donate_sidebar_help_desc": "Speak directly with our finance and partnership coordinator on WhatsApp.",
     "donate_sidebar_help_btn": "Chat on WhatsApp (+94 75 850 7463)",
+    "donate_opt_1": "Our Resettlement Project (Vulnerable Children & Families)",
+    "donate_opt_2": "Future in Their Hands – IT Skills & Digital Literacy",
+    "donate_opt_3": "Challenge-Based Learning & Creative Arts",
+    "donate_opt_4": "Community Dialogue & Peacebuilding",
+    "donate_opt_5": "General Community Development & Support",
+    "donate_ph_amount": "Custom amount",
+    "donate_ph_name": "e.g. Asvini / John Doe",
+    "donate_ph_phone": "e.g. +94 77 123 4567",
+    "donate_ph_email": "e.g. yourname@gmail.com",
+    "donate_ph_msg": "Any specific instructions, dedication, or words of encouragement...",
 
-    // CTA & Footer
+    // CTA & Footer (All pages)
     "cta_eyebrow": "Effort · Learn · Grow",
     "cta_title": "Your effort helps a community learn to grow on its own.",
     "cta_desc": "Donate, volunteer, or partner with us — every route leads to the same peace.",
@@ -201,9 +242,9 @@ const translations = {
   },
 
   ta: {
-    // Navigation
+    // Brand & Navigation
     "brand_title": "சமாதானக் கட்டமைப்பு",
-    "brand_subtitle": "இளைஞர் வலுவூட்டல் மையம்",
+    "brand_subtitle": "& இளைஞர் வலுவூட்டல் மையம்",
     "nav_home": "முகப்பு",
     "nav_about": "எங்களைப் பற்றி",
     "nav_projects": "திட்டங்கள்",
@@ -211,7 +252,7 @@ const translations = {
     "nav_contact": "தொடர்பு",
     "nav_donate": "நன்கொடை",
 
-    // Home Hero & Slideshow
+    // Home Page
     "hero_eyebrow": "இலங்கையை மையமாகக் கொண்ட இலாப நோக்கற்ற அமைப்பு",
     "hero_title": "சமாதானம் <em>உள்ளூரிலேயே</em> மலர்கிறது, ஒவ்வொரு இளைஞர் மூலமாகவும்.",
     "hero_lede": "இலங்கையில் கால் நூற்றாண்டு கால உள்நாட்டு மோதல் நாட்டின் சமூக, பொருளாதார மற்றும் சுற்றுச்சூழல் நிலைகளில் பெரும் தாக்கத்தை ஏற்படுத்தியது. இறக்குமதி செய்யப்பட்ட பதில்களால் உள்ளூர் பிரச்சினைகளை தீர்க்க முடியவில்லை. எனவே, உள்ளூர் மக்கள் தங்களது சொந்த சவால்களைத் தாங்களே எதிர்கொள்ளும் ஆற்றலை உருவாக்குகிறோம்.",
@@ -229,7 +270,6 @@ const translations = {
     "slide_5_badge": "சமூக ஆதரவு",
     "slide_5_caption": "கிராமப்புற குழந்தைகள் கற்று வளர பாதுகாப்பான சூழலை உருவாக்குதல்",
 
-    // Stats
     "stat_1_val": "5",
     "stat_1_lbl": "அடிப்படை விழுமியங்கள் (Core Values)",
     "stat_2_val": "3",
@@ -239,7 +279,6 @@ const translations = {
     "stat_4_val": "SDGs",
     "stat_4_lbl": "நிலையான வளர்ச்சி இலக்குகளை நோக்கிய பணி",
 
-    // Mission & Vision
     "mv_eyebrow": "எமது நோக்கம் & தூரநோக்கு",
     "mv_title": "உள்ளூர் சவால்களுக்கு உள்ளூர் தீர்வுகள்.",
     "mission_eyebrow": "எமது பணி (Mission)",
@@ -249,7 +288,6 @@ const translations = {
     "vision_title": "தன்னிறைவு பெற்ற வலிமையான சமூகங்கள்.",
     "vision_text": "தன்னிறைவை ஊக்குவிக்கும் மற்றும் வாழ்க்கைத் தரத்தை உயர்த்தும் ஆக்கப்பூர்வமான சமூக மேம்பாட்டுத் திட்டங்கள் மூலம் பின்தங்கிய சமூகங்களை வலுவூட்டுதல்.",
 
-    // Core Values
     "values_eyebrow": "எமது அடிப்படை விழுமியங்கள்",
     "values_title": "ஐந்து விழுமியங்கள். ஒரே அமைதியை நோக்கிய ஐந்து மனித கரங்கள்.",
     "values_desc": "எமது இலச்சினையில் உள்ள ஐந்து நபர்கள் கைகளை உயர்த்தி அமைதியை நோக்கி நிற்பது எமது கூட்டுப்பணியை குறிக்கிறது.",
@@ -264,7 +302,6 @@ const translations = {
     "val_5_title": "பங்களிப்பு (Participation)",
     "val_5_desc": "மக்களுக்காக அல்லாமல், மக்களுடனேயே இணைந்து திட்டங்களை உருவாக்குதல்.",
 
-    // Key Project Tracks
     "projects_eyebrow": "களப் பணிகள்",
     "projects_title": "எமது முக்கிய களத் திட்டங்கள்.",
     "proj_1_tag": "மீள்குடியேற்றம்",
@@ -278,7 +315,6 @@ const translations = {
     "proj_3_desc": "RDS மற்றும் WRDS அமைப்புகளுடன் இணைந்து சமூக நல்லிணக்கத்தை மீண்டும் கட்டியெழுப்புதல்.",
     "proj_see_all": "அனைத்து திட்டங்களையும் காண்க",
 
-    // Gallery
     "gallery_eyebrow": "களப் புகைப்படங்கள்",
     "gallery_title": "எமது சமூகங்களில் நிகழும் மாற்றங்கள்.",
     "gallery_item_1": "டிஜிட்டல் கற்றல் மைய தொடக்க விழா",
@@ -288,7 +324,38 @@ const translations = {
     "gallery_item_5": "மடிக்கணினி தட்டச்சு நேரடிப் பயிற்சி",
     "gallery_item_6": "இளைஞர்கள் மற்றும் குழந்தைகள் பெருந்திரள் ஒன்றுகூடல்",
 
-    // Projects Page Detailed Texts
+    // About Us Page
+    "about_crumb": "எங்களைப் பற்றி",
+    "about_title": "நாம் யார்",
+    "about_lede": "பாதிக்கப்படக்கூடிய குழந்தைகள் மற்றும் சமூகங்களுக்கு உள்ளடக்கிய சமுதாயம், மாற்றத்தை ஏற்படுத்தும் கல்வி மற்றும் டிஜிட்டல் வாய்ப்புகளை உருவாக்க பாடுபடும் ஓர் இலாப நோக்கற்ற அமைப்பு.",
+    "about_what_eyebrow": "நாம் என்ன செய்கிறோம்",
+    "about_what_title": "உள்ளூர் வரலாற்றுக்கு உள்ளூர் பதில்கள்.",
+    "about_what_desc": "இலங்கையில் கால் நூற்றாண்டு கால உள்நாட்டு மோதல் சமூக-பொருளாதார மற்றும் சுற்றுச்சூழல் நிலைகளில் பெரும் தாக்கத்தை ஏற்படுத்தியது. இறக்குமதி செய்யப்பட்ட பதில்களால் உள்ளூர் பிரச்சினைகளை முழுமையாக தீர்க்க முடியவில்லை. எனவே, உள்ளூர் மக்கள் தங்கள் சவால்களைத் தாங்களே எதிர்கொள்ள வழிவகுக்கிறோம்.",
+    "about_who_eyebrow": "எமது அடையாளம்",
+    "about_who_title": "கல்வி, புதுமை, தொழில்முனைவு.",
+    "about_who_desc": "இளைஞர்களையும் நலிவுற்ற குழந்தைகளையும் முன்னிலைப்படுத்தி சமூக நல்லிணக்கம், உருமாறும் கல்வி மற்றும் டிஜிட்டல் புதுமைகளை உருவாக்கும் ஓர் அமைப்பாக நாங்கள் இயங்குகிறோம்.",
+    "about_pillars_eyebrow": "எமது செயல்பாட்டு முறை",
+    "about_pillars_title": "சவால் அடிப்படையிலான கற்றலின் 3 தூண்கள்.",
+    "pillar_1_tag": "கல்வி",
+    "pillar_1_title": "மாற்றத்தை ஏற்படுத்தும் கல்வி முறை",
+    "pillar_1_desc": "மனப்பாடக் கல்விக்கு பதிலாக, நிஜ வாழ்க்கைப் பிரச்சினைகளைத் தீர்க்கும் விமர்சன சிந்தனை மற்றும் வடிவமைப்புத் திறன்களை வளர்க்கிறோம்.",
+    "pillar_2_tag": "புதுமை",
+    "pillar_2_title": "டிஜிட்டல் திறன்கள் & வடிவமைப்பு சிந்தனை",
+    "pillar_2_desc": "கிராமப்புற குழந்தைகளுக்கான டிஜிட்டல் இடைவெளியைக் குறைக்க நடைமுறை கணினி அறிவு மற்றும் நவீன வடிவமைப்பு முறைகளைக் கொண்டு சேர்க்கிறோம்.",
+    "pillar_3_tag": "தொழில்முனைவு",
+    "pillar_3_title": "சமூக வலுவூட்டல் & மீளெழுச்சி",
+    "pillar_3_desc": "இளைஞர்கள் வழிநடத்தும் தொழில் முயற்சிகளை யோசனையிலிருந்து செயலாக மாற்றி, சமூகங்களின் பொருளாதார வலிமையை உறுதி செய்கிறோம்.",
+    "about_work_eyebrow": "களத்தில் எமது தாக்கம்",
+    "about_work_title": "களத்தில் எமது நற்பணிகள்",
+    "about_work_desc": "உள்ளூர் சமூக அதிகாரிகள், இளைஞர் குழுக்கள் மற்றும் கிராமத் தலைவர்களுடன் நெருக்கமாக இணைந்து நிலையான மாற்றங்களை முன்னெடுக்கிறோம்.",
+    "work_1_title": "சமூகத் தலைமைத்துவ வட்டங்கள்",
+    "work_1_desc": "கிராம சேவகர், கிராம அபிவிருத்திச் சங்கங்கள் (RDS) மற்றும் மாதர் கிராம அபிவிருத்திச் சங்கங்களுடன் (WRDS) நேரடி கூட்டுப்பணி.",
+    "work_2_title": "மீள்குடியேற்றப் பாடசாலை ஆதரவு",
+    "work_2_desc": "கிராமப்புற குழந்தைகளுக்கு அத்தியாவசிய கல்வி உபகரணங்கள், தலைமைத்துவ முகாம்கள் மற்றும் டிஜிட்டல் கற்றல் வாய்ப்புகளை வழங்குதல்.",
+    "work_3_title": "இளைஞர் வலுவூட்டல் & நல்லிணக்கம்",
+    "work_3_desc": "இலங்கை முழுவதும் சமூகங்களுக்கிடையேயான உரையாடல், ஆக்கப்பூர்வமான சிக்கல் தீர்வு மற்றும் தொழில்முனைவு வாய்ப்புகளை வளர்த்தல்.",
+
+    // Projects Page
     "projects_page_crumb": "எமது திட்டங்கள்",
     "projects_page_title": "தற்போது நடைபெறும் முக்கிய களப்பணிகள்",
     "projects_page_lede": "ஒவ்வொரு திட்டமும் எமது விழுமியங்களை அடிப்படையாகக் கொண்டு, சமூகங்கள், பாடசாலைகள், கிராமத் தலைவர்கள் மற்றும் இளைஞர் வலையமைப்புகளுடன் இணைந்து செயல்படுத்தப்படுகிறது.",
@@ -302,7 +369,6 @@ const translations = {
     "flagship_pill_1_2": "வாழ்க்கைத் திறன் & தலைமைத்துவம்",
     "flagship_pill_1_3": "டிஜிட்டல் கல்வி",
     "flagship_pill_1_4": "சமூகப் பராமரிப்பு",
-
     "flagship_tag_2": "டிஜிட்டல் வலுவூட்டல் பிரிவு",
     "flagship_title_2": "அவர்களின் கைகளில் எதிர்காலம் – ஒளிமயமான எதிர்காலத்திற்கான IT திறன்கள்",
     "flagship_p1_2": "அவர்களின் கைகளில் எதிர்காலம் என்பது பாதிக்கப்படக்கூடிய குழந்தைகளுக்கு தகவல் தொழில்நுட்பக் கல்வி மற்றும் டிஜிட்டல் திறன்களை வழங்குவதன் மூலம் அவர்களை வலுவூட்டுவதற்காக அர்ப்பணிக்கப்பட்ட ஒரு திட்டமாகும்.",
@@ -314,29 +380,34 @@ const translations = {
     "flagship_pill_2_2": "மைக்ரோசாப்ட் ஆபிஸ் (Office)",
     "flagship_pill_2_3": "இணையம் & இணையப் பாதுகாப்பு",
     "flagship_pill_2_4": "எதிர்கால வேலைவாய்ப்புத் தயார்நிலை",
+    "proj_track_1_pill": "பிரிவு 01 · கல்வி",
+    "proj_track_1_title": "சவால் அடிப்படையிலான கற்றல் & கலைப் பட்டறைகள்",
+    "proj_track_1_desc": "கிராமப்புற பாடசாலை மாணவர்கள் உள்ளூர் பிரச்சினைகளைக் கண்டறிந்து நடைமுறைத் தீர்வுகளை உருவாக்குகின்றனர்.",
+    "proj_track_2_pill": "பிரிவு 02 · அமைதிக்கட்டமைப்பு",
+    "proj_track_2_title": "சமூகங்களுக்கிடையேயான உரையாடல் & நல்லிணக்கம்",
+    "proj_track_2_desc": "இன மற்றும் மத எல்லைகளைக் கடந்து கிராமப்புற அபிவிருத்திச் சங்கங்களுடன் இணைந்து அமைதி வட்டங்களை நடத்துதல்.",
+    "proj_track_3_pill": "பிரிவு 03 · தொழில்முனைவு",
+    "proj_track_3_title": "இளைஞர் சமூக தொழில்முனைவு மையம்",
+    "proj_track_3_desc": "கிராமப்புற இளைஞர்களின் விவசாயம், சுற்றுச்சூழல் சுற்றுலா மற்றும் கைவினைத் தொழில் முயற்சிகளுக்கு வழிகாட்டல் மற்றும் சந்தை வாய்ப்புகள்.",
 
-    // About Page Texts
-    "about_crumb": "எங்களைப் பற்றி",
-    "about_title": "ஐந்து விழுமியங்களில் கட்டமைக்கப்பட்டு, சமூகங்களால் இயக்கப்படுகிறது.",
-    "about_lede": "சமாதானக் கட்டமைப்பு மற்றும் இளைஞர் வலுவூட்டல் மையம் என்பது 25 ஆண்டுகால உள்நாட்டு மோதலின் சமூக, பொருளாதார மற்றும் சுற்றுச்சூழல் சவால்களை எதிர்கொள்ளும் ஓர் இலங்கை இலாப நோக்கற்ற அமைப்பாகும்.",
-    "about_work_eyebrow": "களத்தில் எமது தாக்கம்",
-    "about_work_title": "களத்தில் எமது நற்பணிகள்",
-    "about_work_desc": "உள்ளூர் சமூக அதிகாரிகள், இளைஞர் குழுக்கள் மற்றும் கிராமத் தலைவர்களுடன் நெருக்கமாக இணைந்து நிலையான மாற்றங்களை முன்னெடுக்கிறோம்.",
-
-    // Get Involved Page Texts
+    // Get Involved Page
     "involved_crumb": "இணையுங்கள்",
     "involved_title": "இலங்கை இளைஞர்களுடன் துணை நிற்க 4 வழிகள்.",
     "involved_lede": "உங்கள் நேரம், நிபுணத்துவம், நிதி அல்லது கூட்டாண்மை மூலம் எமது சமூக மாற்றத்தில் நீங்களும் பங்குதாரராகலாம்.",
     "way_1_title": "தன்னார்வத் திறன் பங்களிப்பு",
     "way_1_desc": "கற்பித்தல், இளைஞர் தொழில்முனைவோருக்கு வழிகாட்டுதல், அல்லது வடிவமைப்பு சிந்தனைப் பட்டறைகளை எளிதாக்குதல்.",
+    "way_1_btn": "தன்னார்வலராக இணைய",
     "way_2_title": "திட்டத்திற்கு நிதியுதவி செய்தல்",
     "way_2_desc": "மீள்குடியேற்ற குழந்தைகள் திட்டம், கிராமப் பாடசாலைகளுக்கான IT உபகரணங்கள் அல்லது டிஜிட்டல் கல்வி வகுப்புகளுக்கு ஆதரவளியுங்கள்.",
+    "way_2_btn": "திட்டத்திற்கு நிதியளிக்க",
     "way_3_title": "நிறுவனக் கூட்டாண்மை",
     "way_3_desc": "சமூக அமைதி மற்றும் தொழில்முனைவு திட்டங்களை விரிவுபடுத்த ஓர் அரச சார்பற்ற நிறுவனம், பல்கலைக்கழகம் அல்லது அமைப்பாக இணையுங்கள்.",
+    "way_3_btn": "கூட்டாண்மையை முன்மொழிய",
     "way_4_title": "எமது பணியைப் பரப்புங்கள்",
     "way_4_desc": "எமது வெற்றிக் கதைகளைப் பகிருங்கள் மற்றும் சமூக ரீதியான அமைதி உருவாக்கத்திற்கு குரல் கொடுங்கள்.",
+    "way_4_btn": "எங்களுடன் இணைய",
 
-    // Contact Page Texts
+    // Contact Page
     "contact_crumb": "தொடர்பு கொள்க",
     "contact_title": "எங்களுடன் இணையுங்கள் — WhatsApp மூலமே மிக விரைவான வழி.",
     "contact_lede": "தாமதங்கள் இல்லை. கீழேயுள்ள பொத்தானை அழுத்தி நேரடியாக WhatsApp மூலம் உரையாடுங்கள்.",
@@ -348,10 +419,11 @@ const translations = {
     "contact_email_lbl": "மின்னஞ்சல்",
     "contact_based_lbl": "அமைவிடம்",
     "contact_based_val": "இலங்கை",
+    "contact_email_btn": "மின்னஞ்சல் அனுப்ப",
     "contact_hours_title": "அலுவலக நேரம்",
     "contact_hours_desc": "திங்கள் – வெள்ளி, காலை 9:00 முதல் மாலை 5:00 வரை. பிற நேரங்களிலும் WhatsApp செய்திகள் வரவேற்கப்படுகின்றன.",
 
-    // Donate Page Texts
+    // Donate Page
     "donate_eyebrow": "முயற்சி · கற்றல் · வளர்ச்சி",
     "donate_hero_title": "உங்கள் பங்களிப்பு ஒரு குழந்தையின் எதிர்காலத்தை ஒளிரச் செய்கிறது",
     "donate_hero_p": "ஒவ்வொரு ரூபாயும் இலங்கையின் கிராமப்புற மீள்குடியேற்ற சமூகங்களில் உள்ள குழந்தைகளின் டிஜிட்டல் கல்வி, வாழ்க்கைத் திறன்கள் மற்றும் கற்றல் உபகரணங்களுக்கு நேரடியாகச் சென்றடைகிறது.",
@@ -380,6 +452,16 @@ const translations = {
     "donate_sidebar_help_title": "நன்கொடை பற்றிய சந்தேகங்களா?",
     "donate_sidebar_help_desc": "எமது நிதி மற்றும் கூட்டாண்மை ஒருங்கிணைப்பாளருடன் WhatsApp-இல் நேரடியாகப் பேசுங்கள்.",
     "donate_sidebar_help_btn": "WhatsApp-இல் உரையாட (+94 75 850 7463)",
+    "donate_opt_1": "எமது மீள்குடியேற்ற திட்டம் (பாதிக்கப்பட்ட குழந்தைகள் & குடும்பங்கள்)",
+    "donate_opt_2": "அவர்களின் கைகளில் எதிர்காலம் – IT திறன்கள் & டிஜிட்டல் கல்வி",
+    "donate_opt_3": "சவால் அடிப்படையிலான கற்றல் & ஆக்கப்பூர்வ கலைகள்",
+    "donate_opt_4": "சமூக உரையாடல் & சமாதானக் கட்டமைப்பு",
+    "donate_opt_5": "பொதுவான சமூக மேம்பாடு & ஆதரவு",
+    "donate_ph_amount": "தொகையை உள்ளிடவும்",
+    "donate_ph_name": "எ.கா: அஸ்வினி / ஜோன்",
+    "donate_ph_phone": "எ.கா: +94 77 123 4567",
+    "donate_ph_email": "எ.கா: yourname@gmail.com",
+    "donate_ph_msg": "ஏதேனும் குறிப்பிட்ட அறிவுறுத்தல்கள் அல்லது வாழ்த்துச் செய்தி...",
 
     // CTA & Footer
     "cta_eyebrow": "முயற்சி · கற்றல் · வளர்ச்சி",
@@ -402,9 +484,9 @@ const translations = {
   },
 
   si: {
-    // Navigation
+    // Brand & Navigation
     "brand_title": "සාම ගොඩනැගීමේ සහ",
-    "brand_subtitle": "තරුණ සවිබල ගැන්වීමේ මධ්‍යස්ථානය",
+    "brand_subtitle": "& තරුණ සවිබල ගැන්වීමේ මධ්‍යස්ථානය",
     "nav_home": "මුල් පිටුව",
     "nav_about": "අප ගැන",
     "nav_projects": "ව්‍යාපෘති",
@@ -412,7 +494,7 @@ const translations = {
     "nav_contact": "අමතන්න",
     "nav_donate": "පරිත්‍යාග",
 
-    // Home Hero & Slideshow
+    // Home Page
     "hero_eyebrow": "ශ්‍රී ලංකාව පදනම් කරගත් ලාභ නොලබන සංවිධානයකි",
     "hero_title": "සාමය ගොඩනැගෙන්නේ <em>දේශීයවය</em>, සවිබල ගැන්වූ සෑම තරුණයෙකු තුළින්මය.",
     "hero_lede": "ශ්‍රී ලංකාවේ පැවති දීර්ඝ ගැටුම් සමාජ, ආර්ථික හා පාරිසරික තත්ත්වයන්ට විශාල බලපෑමක් ඇති කළේය. ආනයනික විසඳුම් මගින් දේශීය ගැටලු සදාකාලිකව විසඳිය නොහැකි විය. එබැවින් අධ්‍යාපනය, සැලසුම් චින්තනය සහ ව්‍යවසායකත්වය හරහා ප්‍රජාවන්ට තම අභියෝග ජය ගැනීමට අපි මග පෙන්වන්නෙමු.",
@@ -430,7 +512,6 @@ const translations = {
     "slide_5_badge": "ප්‍රජා සහයෝගය",
     "slide_5_caption": "ග්‍රාමීය දරුවන්ට ඉගෙනීමට ආරක්ෂිත පරිසරයක්",
 
-    // Stats
     "stat_1_val": "5",
     "stat_1_lbl": "මූලික වටිනාකම් (Core Values)",
     "stat_2_val": "3",
@@ -440,7 +521,6 @@ const translations = {
     "stat_4_val": "SDGs",
     "stat_4_lbl": "තිරසාර සංවර්ධන ඉලක්ක හා බැඳී ඇත",
 
-    // Mission & Vision
     "mv_eyebrow": "අපගේ අරමුණ",
     "mv_title": "දේශීය අභියෝග සඳහා දේශීය විසඳුම්.",
     "mission_eyebrow": "අපගේ මෙහෙවර (Mission)",
@@ -450,7 +530,6 @@ const translations = {
     "vision_title": "ස්වයංපෝෂිත සහ ශක්තිමත් ප්‍රජාවන්.",
     "vision_text": "ස්වයංපෝෂිතභාවය ප්‍රවර්ධනය කරන සහ ජීවන තත්ත්වය උසස් කරන නිර්මාණශීලී ප්‍රජා සංවර්ධන වැඩසටහන් හරහා අඩු පහසුකම් සහිත ප්‍රජාවන් සවිබල ගැන්වීම.",
 
-    // Core Values
     "values_eyebrow": "අපගේ වටිනාකම්",
     "values_title": "මූලික වටිනාකම් 5ක්. එක් සාමයක් වෙත යොමුවූ මිනිස් පවුරක්.",
     "values_desc": "අපගේ ලාංඡනයේ දැක්වෙන සාම සංකේතය වටා අත්වැල් බැඳගත් පස්දෙනා අපගේ සහභාගීත්ව ප්‍රවේශය විදහා දක්වයි.",
@@ -465,7 +544,6 @@ const translations = {
     "val_5_title": "සහභාගීත්වය (Participation)",
     "val_5_desc": "ප්‍රජාව වෙනුවෙන් නොව, ප්‍රජාව සමගම වැඩසටහන් ගොඩනැගීම.",
 
-    // Key Project Tracks
     "projects_eyebrow": "ක්‍රියාකාරකම්",
     "projects_title": "අපගේ ප්‍රධාන ව්‍යාපෘති.",
     "proj_1_tag": "නැවත පදිංචි කිරීම",
@@ -479,7 +557,6 @@ const translations = {
     "proj_3_desc": "RDS සහ WRDS සමිති සමග එක්ව සමාජ ඒකාබද්ධතාවය යළි ගොඩනැගීම.",
     "proj_see_all": "සියලු ව්‍යාපෘති බලන්න",
 
-    // Gallery
     "gallery_eyebrow": "ඡායාරූප ගැලරිය",
     "gallery_title": "අපගේ ප්‍රජාවන්හි වෙනස්කම්වල අවස්ථා.",
     "gallery_item_1": "තොරතුරු තාක්ෂණ මධ්‍යස්ථාන සමාරම්භය",
@@ -489,7 +566,38 @@ const translations = {
     "gallery_item_5": "පරිගණක යතුරුලියන ප්‍රායෝගික පුහුණුව",
     "gallery_item_6": "ප්‍රජා තරුණ සහ ළමා සුහද හමුව",
 
-    // Projects Page Detailed Texts
+    // About Us Page
+    "about_crumb": "අප ගැන",
+    "about_title": "අපි කවුද",
+    "about_lede": "අවදානමට ලක්විය හැකි දරුවන් සහ ප්‍රජාවන් සඳහා සමාජ ඒකාබද්ධතාවය, පරිවර්තනීය අධ්‍යාපන ක්‍රමයක් සහ ඩිජිටල් අවස්ථා නිර්මාණය කිරීමට කැපවූ ලාභ නොලබන සංවිධානයකි.",
+    "about_what_eyebrow": "අප කරන්නේ කුමක්ද",
+    "about_what_title": "දේශීය ඉතිහාසයට දේශීය විසඳුම්.",
+    "about_what_desc": "ශ්‍රී ලංකාවේ පැවති දීර්ඝ ගැටුම් සමාජ, ආර්ථික හා පාරිසරික තත්ත්වයන්ට විශාල බලපෑමක් ඇති කළේය. ආනයනික විසඳුම් මගින් ප්‍රධාන ගැටලු විසඳිය නොහැකි වූ බැවින්, දේශීය ජනතාවට තම අභියෝග තමන් විසින්ම ජය ගැනීමට අපි අවස්ථාව සලසා දෙන්නෙමු.",
+    "about_who_eyebrow": "අපගේ අනන්‍යතාවය",
+    "about_who_title": "අධ්‍යාපනය, නවෝත්පාදනය, ව්‍යවසායකත්වය.",
+    "about_who_desc": "තරුණයින් සහ දරුවන් පෙරමුණේ තබා සමාජ සහජීවනය, නවීන අධ්‍යාපනය සහ ඩිජිටල් මුලපිරීම් ගොඩනැගීමට අපි කැපවී සිටින්නෙමු.",
+    "about_pillars_eyebrow": "අපගේ ප්‍රවේශය",
+    "about_pillars_title": "අභියෝග පාදක ඉගෙනීමේ ප්‍රධාන කුලුනු 3.",
+    "pillar_1_tag": "අධ්‍යාපනය",
+    "pillar_1_title": "පරිවර්තනීය අධ්‍යාපන ක්‍රමයක්",
+    "pillar_1_desc": "ප්‍රායෝගික ප්‍රජා ගැටලු විසඳීම හරහා නිර්මාණශීලී හා විවේචනාත්මක චින්තනයක් ඇති දරුවන් බිහි කිරීම.",
+    "pillar_2_tag": "නවෝත්පාදනය",
+    "pillar_2_title": "ඩිජිටල් කුසලතා සහ සැලසුම් චින්තනය",
+    "pillar_2_desc": "ග්‍රාමීය දරුවන්ට ප්‍රායෝගික පරිගණක දැනුම සහ මානව කේන්ද්‍රීය සැලසුම් ක්‍රමවේද ලබා දීම.",
+    "pillar_3_tag": "ව්‍යවසායකත්වය",
+    "pillar_3_title": "ප්‍රජා සවිබල ගැන්වීම සහ ශක්තිමත්භාවය",
+    "pillar_3_desc": "තරුණ ව්‍යවසායකයින්ගේ ව්‍යාපාරික අදහස් යථාර්ථයක් බවට පත් කර ප්‍රජාවන්ගේ ආර්ථිකය ශක්තිමත් කිරීම.",
+    "about_work_eyebrow": "ක්‍රියාකාරී ක්ෂේත්‍ර බලපෑම",
+    "about_work_title": "අපගේ ක්ෂේත්‍ර මෙහෙවර",
+    "about_work_desc": "ශ්‍රී ලංකාව පුරා ප්‍රාදේශීය ප්‍රජා නිලධාරීන්, තරුණ කණ්ඩායම් සහ ග්‍රාමීය නායකයින් සමග එක්ව අර්ථවත් වෙනසක් ඇති කිරීම.",
+    "work_1_title": "ප්‍රජා නායකත්ව මණ්ඩප",
+    "work_1_desc": "ග්‍රාම නිලධාරී, ග්‍රාම සංවර්ධන සමිති (RDS) සහ කාන්තා ග්‍රාම සංවර්ධන සමිති (WRDS) සමග සෘජු හවුල්කාරිත්වය.",
+    "work_2_title": "නැවත පදිංචි කළ පාසල් සහාය",
+    "work_2_desc": "ග්‍රාමීය දරුවන්ට අත්‍යවශ්‍ය අධ්‍යාපනික ද්‍රව්‍ය, නායකත්ව කඳවුරු සහ ඩිජිටල් ඉගෙනුම් අවස්ථා ලබා දීම.",
+    "work_3_title": "තරුණ සවිබල ගැන්වීම සහ සංවාද",
+    "work_3_desc": "ශ්‍රී ලංකාව පුරා ප්‍රජා අන්තර් සංවාද, නිර්මාණශීලී ගැටලු විසඳීම සහ ව්‍යවසායකත්ව අවස්ථා ප්‍රවර්ධනය කිරීම.",
+
+    // Projects Page
     "projects_page_crumb": "අපගේ ව්‍යාපෘති",
     "projects_page_title": "දැනට ක්‍රියාත්මක ප්‍රධාන ව්‍යාපෘති",
     "projects_page_lede": "සෑම ව්‍යාපෘතියක්ම ප්‍රජාවන්, පාසල්, ග්‍රාමීය නායකයින් සහ තරුණ ජාලයන් සමග එක්ව අපගේ මූලික වටිනාකම් මත පදනම්ව ක්‍රියාත්මක වේ.",
@@ -503,7 +611,6 @@ const translations = {
     "flagship_pill_1_2": "ජීවන කුසලතා සහ නායකත්වය",
     "flagship_pill_1_3": "ඩිජිටල් සාක්ෂරතාව",
     "flagship_pill_1_4": "ප්‍රජා රැකවරණය",
-
     "flagship_tag_2": "ඩිජිටල් සවිබල ගැන්වීමේ අංශය",
     "flagship_title_2": "අනාගතය ඔවුන්ගේ අතේ – තොරතුරු තාක්ෂණ පුහුණුව",
     "flagship_p1_2": "අනාගතය ඔවුන්ගේ අතේ යනු අඩු පහසුකම් සහිත දරුවන්ට තොරතුරු තාක්ෂණ අධ්‍යාපනය සහ ඩිජිටල් කුසලතා ලබා දීම මගින් ඔවුන් සවිබල ගැන්වීම සඳහා කැපවූ ව්‍යාපෘතියකි.",
@@ -515,29 +622,34 @@ const translations = {
     "flagship_pill_2_2": "මයික්‍රොසොෆ්ට් ඔෆිස් (Office)",
     "flagship_pill_2_3": "අන්තර්ජාල ආරක්ෂාව",
     "flagship_pill_2_4": "අනාගත රැකියා සූදානම",
+    "proj_track_1_pill": "අංශය 01 · අධ්‍යාපනය",
+    "proj_track_1_title": "අභියෝග පාදක ඉගෙනීම සහ කලා වැඩමුළු",
+    "proj_track_1_desc": "ග්‍රාමීය පාසල් සිසුන් ප්‍රාදේශීය ගැටලු හඳුනාගෙන ඒවාට ප්‍රායෝගික විසඳුම් නිර්මාණය කරති.",
+    "proj_track_2_pill": "අංශය 02 · සාම ගොඩනැගීම",
+    "proj_track_2_title": "ප්‍රජා අන්තර් සංවාද සහ සංහිඳියාව",
+    "proj_track_2_desc": "ජනවාර්ගික සහ ආගමික සීමාවන් ඉක්මවා ග්‍රාම සංවර්ධන සමිති සමග එක්ව සාම සංවාද මෙහෙයවීම.",
+    "proj_track_3_pill": "අංශය 03 · ව්‍යවසායකත්වය",
+    "proj_track_3_title": "තරුණ සමාජ ව්‍යවසායකත්ව මධ්‍යස්ථානය",
+    "proj_track_3_desc": "ග්‍රාමීය තරුණයින්ගේ කෘෂිකාර්මික, පරිසර සංචාරක සහ තිරසාර හස්ත කර්මාන්ත ව්‍යාපාර සඳහා මගපෙන්වීම් සහ වෙළෙඳපොළ අවස්ථා.",
 
-    // About Page Texts
-    "about_crumb": "අප ගැන",
-    "about_title": "මූලික වටිනාකම් 5ක් මත ගොඩනැගී, ප්‍රජාවන් විසින් මෙහෙයවනු ලබයි.",
-    "about_lede": "සාම ගොඩනැගීමේ සහ තරුණ සවිබල ගැන්වීමේ මධ්‍යස්ථානය යනු වසර 25ක සිවිල් ගැටුමේ සමාජ, ආර්ථික සහ පාරිසරික අභියෝගවලට මුහුණ දෙන ශ්‍රී ලාංකික ලාභ නොලබන සංවිධානයකි.",
-    "about_work_eyebrow": "ක්‍රියාකාරී ක්ෂේත්‍ර බලපෑම",
-    "about_work_title": "අපගේ ක්ෂේත්‍ර මෙහෙවර",
-    "about_work_desc": "ශ්‍රී ලංකාව පුරා ප්‍රාදේශීය ප්‍රජා නිලධාරීන්, තරුණ කණ්ඩායම් සහ ග්‍රාමීය නායකයින් සමග එක්ව අර්ථවත් වෙනසක් ඇති කිරීම.",
-
-    // Get Involved Page Texts
+    // Get Involved Page
     "involved_crumb": "සම්බන්ධ වන්න",
     "involved_title": "ශ්‍රී ලාංකික තරුණයින් සමග එක්වීමට ක්‍රම 4ක්.",
     "involved_lede": "ඔබගේ කාලය, දැනුම, අරමුදල් හෝ හවුල්කාරිත්වය හරහා ප්‍රජා සංවර්ධනයට සෘජුව දායක විය හැක.",
     "way_1_title": "ස්වේච්ඡා සේවය",
     "way_1_desc": "ඉගැන්වීම්, තරුණ ව්‍යවසායකයින්ට මගපෙන්වීම හෝ නිර්මාණාත්මක සැලසුම් වැඩමුළු මෙහෙයවීම.",
+    "way_1_btn": "ස්වේච්ඡාවෙන් එක්වන්න",
     "way_2_title": "ව්‍යාපෘතියකට අනුග්‍රහය දැක්වීම",
     "way_2_desc": "නැවත පදිංචි කළ දරුවන්ගේ ව්‍යාපෘතිය, පාසල් පරිගණක උපකරණ හෝ ඩිජිටල් සාක්ෂරතා පන්ති සඳහා අරමුදල් සැපයීම.",
+    "way_2_btn": "අනුග්‍රහය දක්වන්න",
     "way_3_title": "ආයතනික හවුල්කාරිත්වය",
     "way_3_desc": "ප්‍රජා සාමය සහ ව්‍යවසායකත්ව වැඩසටහන් පුළුල් කිරීම සඳහා රාජ්‍ය නොවන සංවිධානයක්, විශ්ව විද්‍යාලයක් හෝ ආයතනයක් ලෙස එක්වන්න.",
+    "way_3_btn": "හවුල්කාරිත්වයක් යෝජනා කරන්න",
     "way_4_title": "පණිවිඩය බෙදාහරින්න",
     "way_4_desc": "අපගේ සාර්ථක කතා බෙදාගන්න සහ ප්‍රජා මූලික සාම ගොඩනැගීම වෙනුවෙන් පෙනී සිටින්න.",
+    "way_4_btn": "අප හා එක්වන්න",
 
-    // Contact Page Texts
+    // Contact Page
     "contact_crumb": "අමතන්න",
     "contact_title": "අප හා එක්වන්න — WhatsApp මගින් කඩිනම් ප්‍රතිචාර.",
     "contact_lede": "ප්‍රමාදයන් නැත. පහත බොත්තම ක්ලික් කර WhatsApp හරහා සෘජුවම අප සමග සම්බන්ධ වන්න.",
@@ -549,10 +661,11 @@ const translations = {
     "contact_email_lbl": "විද්‍යුත් තැපෑල",
     "contact_based_lbl": "ස්ථානය",
     "contact_based_val": "ශ්‍රී ලංකාව",
+    "contact_email_btn": "විද්‍යුත් තැපෑලක් එවන්න",
     "contact_hours_title": "කාර්යාල වේලාවන්",
     "contact_hours_desc": "සඳුදා – සිකුරාදා, පෙ.ව. 9:00 සිට ප.ව. 5:00 දක්වා. වෙනත් වේලාවන්හිදීද WhatsApp පණිවිඩ එවීමට හැක.",
 
-    // Donate Page Texts
+    // Donate Page
     "donate_eyebrow": "උත්සාහය · ඉගෙනීම · වර්ධනය",
     "donate_hero_title": "ඔබගේ දායකත්වය දරුවෙකුගේ අනාගතය ආලෝකවත් කරයි",
     "donate_hero_p": "සෑම රුපියලක්ම ශ්‍රී ලංකාවේ ග්‍රාමීය නැවත පදිංචි කළ ප්‍රජාවන්හි දරුවන්ගේ ඩිජිටල් අධ්‍යාපනය, ජීවන කුසලතා සහ අධ්‍යාපනික ද්‍රව්‍ය සඳහා සෘජුවම යෙදවේ.",
@@ -581,6 +694,16 @@ const translations = {
     "donate_sidebar_help_title": "පරිත්‍යාග පිළිබඳ ගැටලු?",
     "donate_sidebar_help_desc": "අපගේ මූල්‍ය සම්බන්ධීකාරක සමග WhatsApp මගින් සෘජුව කතා කරන්න.",
     "donate_sidebar_help_btn": "WhatsApp මගින් අමතන්න (+94 75 850 7463)",
+    "donate_opt_1": "අපගේ නැවත පදිංචි කිරීමේ ව්‍යාපෘතිය (අවදානමට ලක්විය හැකි දරුවන්)",
+    "donate_opt_2": "අනාගතය ඔවුන්ගේ අතේ – තොරතුරු තාක්ෂණ පුහුණුව",
+    "donate_opt_3": "අභියෝග පාදක ඉගෙනීම සහ නිර්මාණශීලී කලා",
+    "donate_opt_4": "ප්‍රජා සංවාද සහ සාම ගොඩනැගීම",
+    "donate_opt_5": "පොදු ප්‍රජා සංවර්ධන සහාය",
+    "donate_ph_amount": "මුදල ඇතුළත් කරන්න",
+    "donate_ph_name": "උදා: අස්විනි / ජෝන්",
+    "donate_ph_phone": "උදා: +94 77 123 4567",
+    "donate_ph_email": "උදා: yourname@gmail.com",
+    "donate_ph_msg": "විශේෂ උපදෙස් හෝ සුබ පැතුම්...",
 
     // CTA & Footer
     "cta_eyebrow": "උත්සාහය · ඉගෙනීම · වර්ධනය",
@@ -618,6 +741,14 @@ function setLanguage(lang) {
       } else {
         el.innerHTML = t[key];
       }
+    }
+  });
+
+  // Update placeholders with data-i18n-placeholder
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+    const key = el.getAttribute('data-i18n-placeholder');
+    if (t[key]) {
+      el.placeholder = t[key];
     }
   });
 

@@ -76,11 +76,11 @@
           <div class="form-group">
             <label for="pDonateProject"><span data-i18n="donate_lbl_project">Select Project / Track</span> <span>*</span></label>
             <select id="pDonateProject" class="form-control" required>
-              <option value="Our Resettlement Project">Our Resettlement Project (Vulnerable Children &amp; Families)</option>
-              <option value="Future in Their Hands – IT Skills">Future in Their Hands – IT Skills &amp; Digital Literacy</option>
-              <option value="Challenge-Based Learning &amp; Arts">Challenge-Based Learning &amp; Creative Arts</option>
-              <option value="Community Dialogue &amp; Peacebuilding">Community Dialogue &amp; Peacebuilding</option>
-              <option value="General Community Support">General Community Development &amp; Support</option>
+              <option value="Our Resettlement Project" data-i18n="donate_opt_1">Our Resettlement Project (Vulnerable Children &amp; Families)</option>
+              <option value="Future in Their Hands – IT Skills" data-i18n="donate_opt_2">Future in Their Hands – IT Skills &amp; Digital Literacy</option>
+              <option value="Challenge-Based Learning &amp; Arts" data-i18n="donate_opt_3">Challenge-Based Learning &amp; Creative Arts</option>
+              <option value="Community Dialogue &amp; Peacebuilding" data-i18n="donate_opt_4">Community Dialogue &amp; Peacebuilding</option>
+              <option value="General Community Support" data-i18n="donate_opt_5">General Community Development &amp; Support</option>
             </select>
           </div>
 
@@ -95,32 +95,32 @@
             </div>
             <div class="currency-input-wrap">
               <span class="currency-prefix">LKR</span>
-              <input type="number" id="pDonateAmount" class="form-control" value="5000" min="100" placeholder="Custom amount" required>
+              <input type="number" id="pDonateAmount" class="form-control" value="5000" min="100" placeholder="Custom amount" data-i18n-placeholder="donate_ph_amount" required>
             </div>
           </div>
 
           <!-- Name -->
           <div class="form-group">
             <label for="pDonateName"><span data-i18n="donate_lbl_name">Your Full Name</span> <span>*</span></label>
-            <input type="text" id="pDonateName" class="form-control" placeholder="e.g. Asvini / John Doe" required>
+            <input type="text" id="pDonateName" class="form-control" placeholder="e.g. Asvini / John Doe" data-i18n-placeholder="donate_ph_name" required>
           </div>
 
           <!-- Phone/WhatsApp -->
           <div class="form-group">
             <label for="pDonatePhone"><span data-i18n="donate_lbl_phone">WhatsApp / Phone Number</span> <span>*</span></label>
-            <input type="tel" id="pDonatePhone" class="form-control" placeholder="e.g. +94 77 123 4567" required>
+            <input type="tel" id="pDonatePhone" class="form-control" placeholder="e.g. +94 77 123 4567" data-i18n-placeholder="donate_ph_phone" required>
           </div>
 
           <!-- Email -->
           <div class="form-group">
             <label for="pDonateEmail" data-i18n="donate_lbl_email">Email Address (Optional)</label>
-            <input type="email" id="pDonateEmail" class="form-control" placeholder="e.g. yourname@gmail.com">
+            <input type="email" id="pDonateEmail" class="form-control" placeholder="e.g. yourname@gmail.com" data-i18n-placeholder="donate_ph_email">
           </div>
 
           <!-- Message -->
           <div class="form-group">
             <label for="pDonateMessage" data-i18n="donate_lbl_msg">Message / Dedication (Optional)</label>
-            <textarea id="pDonateMessage" class="form-control" rows="3" placeholder="Any specific instructions, dedication, or words of encouragement..."></textarea>
+            <textarea id="pDonateMessage" class="form-control" rows="3" placeholder="Any specific instructions, dedication, or words of encouragement..." data-i18n-placeholder="donate_ph_msg"></textarea>
           </div>
 
           <!-- Submit via WhatsApp -->
