@@ -123,14 +123,18 @@ p{margin:0 0 1em;}
 }
 .main-nav a:hover{background:var(--paper-deep);}
 .main-nav a.active{color:var(--v-blue);}
-.nav-cta{
-  margin-left:8px;
-  background:var(--ink);
-  color:var(--paper) !important;
-  padding:11px 20px !important;
-  border-radius:30px !important;
+@media (min-width: 721px) {
+  .site-header .nav-cta{
+    margin-left:8px;
+    background:var(--ink);
+    color:var(--paper) !important;
+    padding:11px 22px;
+    border-radius:30px;
+  }
+  .site-header .nav-cta:hover{
+    background:var(--v-blue);
+  }
 }
-.nav-cta:hover{background:var(--v-blue) !important;}
 
 .nav-toggle{
   display:none;background:none;border:0;cursor:pointer;padding:8px;
