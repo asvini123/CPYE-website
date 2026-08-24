@@ -512,26 +512,89 @@ body.nav-open .wa-float{
   .main-nav a{padding:16px;font-size:17px;}
   .main-nav .nav-cta{text-align:center;justify-content:center;margin-left:0;margin-top:8px;}
 
-  .mobile-actions{display:block;}
+  /* Hide large footer on mobile view as requested */
+  .site-footer{display:none !important;}
+
+  .mobile-actions{
+    display:block;
+    background:rgba(250, 247, 240, 0.98);
+    backdrop-filter:blur(16px);
+    -webkit-backdrop-filter:blur(16px);
+    border-top:1px solid rgba(227, 154, 62, 0.25);
+    box-shadow:0 -4px 20px rgba(0,0,0,0.08);
+    padding:6px 4px calc(6px + env(safe-area-inset-bottom));
+  }
+  .mobile-actions .wrap{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:4px;
+    padding:0 4px;
+  }
+  .mobile-actions a{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:2px;
+    padding:6px 2px;
+    border-radius:10px;
+    font-size:10.5px;
+    font-weight:600;
+    color:var(--ink-soft);
+    text-decoration:none;
+    white-space:nowrap;
+    transition:all .18s ease;
+  }
+  .mobile-actions a svg{
+    width:19px;
+    height:19px;
+    stroke-width:2;
+  }
+  .mobile-actions a.active{
+    color:var(--v-blue);
+    background:rgba(29, 92, 153, 0.08);
+    font-weight:700;
+  }
+  /* Highlight Donate tab stylishly and cleanly on mobile */
+  .mobile-actions a[href="donate.html"],
+  .mobile-actions a:last-child{
+    color:var(--clay) !important;
+    font-weight:700;
+    background:rgba(227, 154, 62, 0.12);
+    border-radius:12px;
+    padding:6px 4px;
+  }
+  .mobile-actions a[href="donate.html"].active,
+  .mobile-actions a:last-child.active{
+    background:var(--clay);
+    color:#fff !important;
+  }
+  .mobile-actions a[href="donate.html"].active svg,
+  .mobile-actions a:last-child.active svg{
+    stroke:#fff;
+  }
+
   .wa-float{
     display:flex !important;
-    right:16px;
-    bottom:74px; /* Floats directly in the corner above the 5 sticky tabs */
-    width:52px;
-    height:52px;
+    right:14px;
+    bottom:68px; /* Floats directly in the corner above the sticky bar */
+    width:50px;
+    height:50px;
   }
-  .wa-float svg{width:28px;height:28px;}
-  body{padding-bottom:72px;}
+  .wa-float svg{width:26px;height:26px;}
+  body{padding-bottom:68px;}
 
-  section{padding:56px 0;}
-  .section-tight{padding:44px 0;}
-  .section-head{margin-bottom:32px;}
-  .cta-banner{padding:32px 24px;border-radius:16px;}
-  .cta-banner h2{font-size:24px;}
+  section{padding:48px 0;}
+  .section-tight{padding:36px 0;}
+  .section-head{margin-bottom:28px;}
+  .cta-banner{padding:28px 20px;border-radius:16px;}
+  .cta-banner h2{font-size:22px;}
   .cta-actions{flex-direction:column;}
   .cta-actions .btn{width:100%;justify-content:center;}
   .img-frame{padding:12px;border-radius:18px;}
-  .page-hero{padding:44px 0 36px;}
+  .page-hero{padding:38px 0 30px;}
   .values-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
 }
 
